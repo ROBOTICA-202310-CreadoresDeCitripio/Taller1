@@ -1,0 +1,27 @@
+[2.031s] Invoking command in '/home/robotica/taller1_grupo15/src/turtle_bot_15': PYTHONPATH=/home/robotica/taller1_grupo15/build/turtle_bot_15/prefix_override:/home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_15 build --build-base /home/robotica/taller1_grupo15/build/turtle_bot_15/build install --record /home/robotica/taller1_grupo15/build/turtle_bot_15/install.log --single-version-externally-managed
+[2.706s] running egg_info
+[2.708s] writing ../../build/turtle_bot_15/turtle_bot_15.egg-info/PKG-INFO
+[2.734s] writing dependency_links to ../../build/turtle_bot_15/turtle_bot_15.egg-info/dependency_links.txt
+[2.736s] writing entry points to ../../build/turtle_bot_15/turtle_bot_15.egg-info/entry_points.txt
+[2.740s] writing requirements to ../../build/turtle_bot_15/turtle_bot_15.egg-info/requires.txt
+[2.758s] writing top-level names to ../../build/turtle_bot_15/turtle_bot_15.egg-info/top_level.txt
+[2.764s] reading manifest file '../../build/turtle_bot_15/turtle_bot_15.egg-info/SOURCES.txt'
+[2.766s] writing manifest file '../../build/turtle_bot_15/turtle_bot_15.egg-info/SOURCES.txt'
+[2.771s] running build
+[2.771s] running build_py
+[2.772s] copying turtle_bot_15/turtle_bot_teleop.py -> /home/robotica/taller1_grupo15/build/turtle_bot_15/build/lib/turtle_bot_15
+[2.772s] running install
+[2.773s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.773s]   warnings.warn(
+[2.774s] running install_lib
+[2.783s] copying /home/robotica/taller1_grupo15/build/turtle_bot_15/build/lib/turtle_bot_15/turtle_bot_teleop.py -> /home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15
+[2.784s] byte-compiling /home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15/turtle_bot_teleop.py to turtle_bot_teleop.cpython-310.pyc
+[2.785s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (turtle_bot_teleop.py, line 26)
+[2.785s] running install_data
+[2.786s] running install_egg_info
+[2.788s] removing '/home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15-0.0.0-py3.10.egg-info' (and everything under it)
+[2.789s] Copying ../../build/turtle_bot_15/turtle_bot_15.egg-info to /home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15-0.0.0-py3.10.egg-info
+[2.792s] running install_scripts
+[2.861s] Installing turtle_bot_teleop script to /home/robotica/taller1_grupo15/install/turtle_bot_15/lib/turtle_bot_15
+[2.863s] writing list of installed files to '/home/robotica/taller1_grupo15/build/turtle_bot_15/install.log'
+[2.958s] Invoked command in '/home/robotica/taller1_grupo15/src/turtle_bot_15' returned '0': PYTHONPATH=/home/robotica/taller1_grupo15/build/turtle_bot_15/prefix_override:/home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_15 build --build-base /home/robotica/taller1_grupo15/build/turtle_bot_15/build install --record /home/robotica/taller1_grupo15/build/turtle_bot_15/install.log --single-version-externally-managed

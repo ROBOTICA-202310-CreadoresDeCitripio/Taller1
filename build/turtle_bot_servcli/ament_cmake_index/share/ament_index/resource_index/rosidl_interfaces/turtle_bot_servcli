@@ -1,0 +1,6 @@
+msg/Posicion.idl
+msg/Posicion.msg
+srv/MoveRobotToPosition.idl
+srv/MoveRobotToPosition.srv
+srv/MoveRobotToPosition_Request.msg
+srv/MoveRobotToPosition_Response.msg

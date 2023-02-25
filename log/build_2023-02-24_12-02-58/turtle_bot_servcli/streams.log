@@ -1,0 +1,277 @@
+[0.035s] Invoking command in '/home/robotica/taller1_grupo15/build/turtle_bot_servcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotica/taller1_grupo15/build/turtle_bot_servcli -- -j1 -l1
+[0.127s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.509s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.647s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.718s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.721s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.730s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.747s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.790s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.242s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.058s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.092s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.825s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.973s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.059s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.059s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.059s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.231s] -- Added test 'lint_cmake' to check CMake code style
+[4.235s] -- Added test 'xmllint' to check XML markup files
+[4.252s] -- Configuring done
+[4.730s] -- Generating done
+[4.792s] -- Build files have been written to: /home/robotica/taller1_grupo15/build/turtle_bot_servcli
+[5.010s] [  2%] Built target turtle_bot_servcli__cpp
+[5.074s] [35m[1mConsolidate compiler generated dependencies of target turtle_bot_servcli__rosidl_typesupport_cpp[0m
+[5.114s] [  5%] [32mBuilding CXX object CMakeFiles/turtle_bot_servcli__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_bot_servcli/srv/move_robot_to_position__type_support.cpp.o[0m
+[5.925s] [  7%] [32m[1mLinking CXX shared library libturtle_bot_servcli__rosidl_typesupport_cpp.so[0m
+[6.058s] [ 12%] Built target turtle_bot_servcli__rosidl_typesupport_cpp
+[6.230s] [35m[1mConsolidate compiler generated dependencies of target turtle_bot_servcli__rosidl_generator_c[0m
+[6.269s] [ 15%] [32mBuilding C object CMakeFiles/turtle_bot_servcli__rosidl_generator_c.dir/rosidl_generator_c/turtle_bot_servcli/srv/detail/move_robot_to_position__functions.c.o[0m
+[6.483s] [ 17%] [32m[1mLinking C shared library libturtle_bot_servcli__rosidl_generator_c.so[0m
+[6.665s] [ 23%] Built target turtle_bot_servcli__rosidl_generator_c
+[6.808s] [35m[1mConsolidate compiler generated dependencies of target turtle_bot_servcli__rosidl_typesupport_fastrtps_c[0m
+[6.862s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_bot_servcli__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_bot_servcli/srv/detail/move_robot_to_position__type_support_c.cpp.o[0m
+[7.837s] [ 28%] [32m[1mLinking CXX shared library libturtle_bot_servcli__rosidl_typesupport_fastrtps_c.so[0m
+[8.139s] [ 33%] Built target turtle_bot_servcli__rosidl_typesupport_fastrtps_c
+[8.221s] [35m[1mConsolidate compiler generated dependencies of target turtle_bot_servcli__rosidl_typesupport_fastrtps_cpp[0m
+[8.274s] [ 35%] [32mBuilding CXX object CMakeFiles/turtle_bot_servcli__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_bot_servcli/srv/detail/dds_fastrtps/move_robot_to_position__type_support.cpp.o[0m
+[9.285s] [ 38%] [32m[1mLinking CXX shared library libturtle_bot_servcli__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.443s] [ 43%] Built target turtle_bot_servcli__rosidl_typesupport_fastrtps_cpp
+[9.487s] [35m[1mConsolidate compiler generated dependencies of target turtle_bot_servcli__rosidl_typesupport_introspection_c[0m
+[9.517s] [ 46%] [32mBuilding C object CMakeFiles/turtle_bot_servcli__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_bot_servcli/srv/detail/move_robot_to_position__type_support.c.o[0m
+[9.626s] [ 48%] [32m[1mLinking C shared library libturtle_bot_servcli__rosidl_typesupport_introspection_c.so[0m
+[9.702s] [ 53%] Built target turtle_bot_servcli__rosidl_typesupport_introspection_c
+[9.759s] [35m[1mConsolidate compiler generated dependencies of target turtle_bot_servcli__rosidl_typesupport_c[0m
+[9.794s] [ 56%] [32mBuilding CXX object CMakeFiles/turtle_bot_servcli__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_bot_servcli/srv/move_robot_to_position__type_support.cpp.o[0m
+[9.873s] [ 58%] [32m[1mLinking CXX shared library libturtle_bot_servcli__rosidl_typesupport_c.so[0m
+[9.945s] [ 64%] Built target turtle_bot_servcli__rosidl_typesupport_c
+[9.986s] [35m[1mConsolidate compiler generated dependencies of target turtle_bot_servcli__rosidl_typesupport_introspection_cpp[0m
+[10.010s] [ 66%] [32mBuilding CXX object CMakeFiles/turtle_bot_servcli__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_bot_servcli/srv/detail/move_robot_to_position__type_support.cpp.o[0m
+[10.910s] [ 69%] [32m[1mLinking CXX shared library libturtle_bot_servcli__rosidl_typesupport_introspection_cpp.so[0m
+[11.144s] [ 74%] Built target turtle_bot_servcli__rosidl_typesupport_introspection_cpp
+[11.225s] [ 74%] Built target turtle_bot_servcli
+[11.387s] [ 74%] Built target ament_cmake_python_copy_turtle_bot_servcli
+[12.146s] running egg_info
+[12.147s] writing turtle_bot_servcli.egg-info/PKG-INFO
+[12.156s] writing dependency_links to turtle_bot_servcli.egg-info/dependency_links.txt
+[12.157s] writing top-level names to turtle_bot_servcli.egg-info/top_level.txt
+[12.170s] reading manifest file 'turtle_bot_servcli.egg-info/SOURCES.txt'
+[12.171s] writing manifest file 'turtle_bot_servcli.egg-info/SOURCES.txt'
+[12.280s] [ 74%] Built target ament_cmake_python_build_turtle_bot_servcli_egg
+[12.397s] [ 76%] Built target turtle_bot_servcli__py
+[12.439s] [35m[1mConsolidate compiler generated dependencies of target turtle_bot_servcli__rosidl_generator_py[0m
+[12.541s] [ 79%] [32mBuilding C object CMakeFiles/turtle_bot_servcli__rosidl_generator_py.dir/rosidl_generator_py/turtle_bot_servcli/srv/_move_robot_to_position_s.c.o[0m
+[12.987s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/turtle_bot_servcli/libturtle_bot_servcli__rosidl_generator_py.so[0m
+[13.146s] [ 84%] Built target turtle_bot_servcli__rosidl_generator_py
+[13.184s] [35m[1mConsolidate compiler generated dependencies of target turtle_bot_servcli__rosidl_typesupport_fastrtps_c__pyext[0m
+[13.236s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/turtle_bot_servcli/turtle_bot_servcli_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.381s] [ 89%] Built target turtle_bot_servcli__rosidl_typesupport_fastrtps_c__pyext
+[13.417s] [35m[1mConsolidate compiler generated dependencies of target turtle_bot_servcli__rosidl_typesupport_introspection_c__pyext[0m
+[13.507s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/turtle_bot_servcli/turtle_bot_servcli_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.667s] [ 94%] Built target turtle_bot_servcli__rosidl_typesupport_introspection_c__pyext
+[13.709s] [35m[1mConsolidate compiler generated dependencies of target turtle_bot_servcli__rosidl_typesupport_c__pyext[0m
+[13.757s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtle_bot_servcli/turtle_bot_servcli_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.895s] [100%] Built target turtle_bot_servcli__rosidl_typesupport_c__pyext
+[13.933s] Invoked command in '/home/robotica/taller1_grupo15/build/turtle_bot_servcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotica/taller1_grupo15/build/turtle_bot_servcli -- -j1 -l1
+[14.487s] Invoking command in '/home/robotica/taller1_grupo15/build/turtle_bot_servcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotica/taller1_grupo15/build/turtle_bot_servcli
+[14.523s] -- Install configuration: ""
+[14.523s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/ament_index/resource_index/rosidl_interfaces/turtle_bot_servcli
+[14.524s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli
+[14.524s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv
+[14.525s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail
+[14.525s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot__functions.c
+[14.525s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot_to_position__type_support.h
+[14.525s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move__type_support.h
+[14.525s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot_to_position__functions.c
+[14.526s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot_to_position__functions.h
+[14.526s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot__struct.h
+[14.526s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move__functions.c
+[14.526s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot__type_support.h
+[14.527s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot_to_position__struct.h
+[14.527s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move__functions.h
+[14.527s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move__struct.h
+[14.527s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot__functions.h
+[14.527s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/move.h
+[14.528s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/move_robot.h
+[14.528s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/move_robot_to_position.h
+[14.528s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg
+[14.528s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail
+[14.528s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail/posicion__struct.h
+[14.529s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail/posicion__functions.c
+[14.535s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail/posicion__type_support.h
+[14.535s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail/posicion__functions.h
+[14.535s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/posicion.h
+[14.535s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/rosidl_generator_c__visibility_control.h
+[14.536s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/environment/library_path.sh
+[14.536s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/environment/library_path.dsv
+[14.536s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/lib/libturtle_bot_servcli__rosidl_generator_c.so
+[14.537s] -- Set runtime path of "/home/robotica/taller1_grupo15/install/turtle_bot_servcli/lib/libturtle_bot_servcli__rosidl_generator_c.so" to ""
+[14.537s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli
+[14.538s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv
+[14.538s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail
+[14.538s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot__rosidl_typesupport_fastrtps_c.h
+[14.538s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot_to_position__rosidl_typesupport_fastrtps_c.h
+[14.539s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move__rosidl_typesupport_fastrtps_c.h
+[14.539s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg
+[14.539s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail
+[14.539s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail/posicion__rosidl_typesupport_fastrtps_c.h
+[14.539s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.540s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/lib/libturtle_bot_servcli__rosidl_typesupport_fastrtps_c.so
+[14.540s] -- Set runtime path of "/home/robotica/taller1_grupo15/install/turtle_bot_servcli/lib/libturtle_bot_servcli__rosidl_typesupport_fastrtps_c.so" to ""
+[14.544s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli
+[14.544s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv
+[14.544s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail
+[14.544s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot__struct.hpp
+[14.545s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot_to_position__traits.hpp
+[14.545s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot__traits.hpp
+[14.545s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot_to_position__builder.hpp
+[14.545s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot__builder.hpp
+[14.546s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot_to_position__struct.hpp
+[14.546s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move__builder.hpp
+[14.546s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move__struct.hpp
+[14.555s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move__traits.hpp
+[14.555s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/move.hpp
+[14.556s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/move_robot.hpp
+[14.556s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/move_robot_to_position.hpp
+[14.556s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg
+[14.556s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail
+[14.556s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail/posicion__builder.hpp
+[14.557s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail/posicion__struct.hpp
+[14.557s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail/posicion__traits.hpp
+[14.557s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/posicion.hpp
+[14.557s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli
+[14.558s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv
+[14.558s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail
+[14.558s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move__rosidl_typesupport_fastrtps_cpp.hpp
+[14.559s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot_to_position__rosidl_typesupport_fastrtps_cpp.hpp
+[14.559s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/dds_fastrtps
+[14.559s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[14.559s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg
+[14.560s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail
+[14.560s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail/dds_fastrtps
+[14.560s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail/posicion__rosidl_typesupport_fastrtps_cpp.hpp
+[14.560s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.560s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/lib/libturtle_bot_servcli__rosidl_typesupport_fastrtps_cpp.so
+[14.561s] -- Set runtime path of "/home/robotica/taller1_grupo15/install/turtle_bot_servcli/lib/libturtle_bot_servcli__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.561s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli
+[14.561s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv
+[14.562s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail
+[14.562s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot_to_position__rosidl_typesupport_introspection_c.h
+[14.562s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot__type_support.c
+[14.562s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot__rosidl_typesupport_introspection_c.h
+[14.562s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move__type_support.c
+[14.562s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot_to_position__type_support.c
+[14.563s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move__rosidl_typesupport_introspection_c.h
+[14.563s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg
+[14.567s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail
+[14.567s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail/posicion__rosidl_typesupport_introspection_c.h
+[14.567s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail/posicion__type_support.c
+[14.567s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.568s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/lib/libturtle_bot_servcli__rosidl_typesupport_introspection_c.so
+[14.568s] -- Set runtime path of "/home/robotica/taller1_grupo15/install/turtle_bot_servcli/lib/libturtle_bot_servcli__rosidl_typesupport_introspection_c.so" to ""
+[14.569s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/lib/libturtle_bot_servcli__rosidl_typesupport_c.so
+[14.569s] -- Set runtime path of "/home/robotica/taller1_grupo15/install/turtle_bot_servcli/lib/libturtle_bot_servcli__rosidl_typesupport_c.so" to ""
+[14.569s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli
+[14.569s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv
+[14.570s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail
+[14.570s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot__rosidl_typesupport_introspection_cpp.hpp
+[14.576s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot_to_position__type_support.cpp
+[14.577s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move__type_support.cpp
+[14.577s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot_to_position__rosidl_typesupport_introspection_cpp.hpp
+[14.578s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move_robot__type_support.cpp
+[14.578s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/srv/detail/move__rosidl_typesupport_introspection_cpp.hpp
+[14.578s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg
+[14.578s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail
+[14.578s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail/posicion__rosidl_typesupport_introspection_cpp.hpp
+[14.579s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/include/turtle_bot_servcli/turtle_bot_servcli/msg/detail/posicion__type_support.cpp
+[14.579s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/lib/libturtle_bot_servcli__rosidl_typesupport_introspection_cpp.so
+[14.579s] -- Set runtime path of "/home/robotica/taller1_grupo15/install/turtle_bot_servcli/lib/libturtle_bot_servcli__rosidl_typesupport_introspection_cpp.so" to ""
+[14.580s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/lib/libturtle_bot_servcli__rosidl_typesupport_cpp.so
+[14.587s] -- Set runtime path of "/home/robotica/taller1_grupo15/install/turtle_bot_servcli/lib/libturtle_bot_servcli__rosidl_typesupport_cpp.so" to ""
+[14.588s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/environment/pythonpath.sh
+[14.588s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/environment/pythonpath.dsv
+[14.588s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli-0.0.0-py3.10.egg-info
+[14.589s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli-0.0.0-py3.10.egg-info/SOURCES.txt
+[14.589s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli-0.0.0-py3.10.egg-info/PKG-INFO
+[14.590s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli-0.0.0-py3.10.egg-info/dependency_links.txt
+[14.590s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli-0.0.0-py3.10.egg-info/top_level.txt
+[14.591s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli
+[14.591s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/turtle_bot_servcli_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.592s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/_turtle_bot_servcli_s.ep.rosidl_typesupport_c.c
+[14.592s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/turtle_bot_servcli_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.592s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/srv
+[14.592s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/srv/_move_s.c
+[14.592s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/srv/_move.py
+[14.592s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/srv/_move_robot_s.c
+[14.593s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/srv/_move_robot_to_position.py
+[14.595s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/srv/_move_robot.py
+[14.596s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/srv/__init__.py
+[14.596s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/srv/_move_robot_to_position_s.c
+[14.596s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/turtle_bot_servcli_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.597s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/msg
+[14.597s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/msg/_posicion_s.c
+[14.597s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/msg/_posicion.py
+[14.597s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/msg/__init__.py
+[14.597s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/__init__.py
+[14.607s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/libturtle_bot_servcli__rosidl_generator_py.so
+[14.608s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/_turtle_bot_servcli_s.ep.rosidl_typesupport_introspection_c.c
+[14.608s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/_turtle_bot_servcli_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.700s] Listing '/home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli'...
+[14.700s] Compiling '/home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/__init__.py'...
+[14.700s] Listing '/home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/msg'...
+[14.700s] Listing '/home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/srv'...
+[14.700s] Compiling '/home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/srv/_move_robot_to_position.py'...
+[14.711s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/turtle_bot_servcli_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.720s] -- Set runtime path of "/home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/turtle_bot_servcli_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.721s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/turtle_bot_servcli_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.721s] -- Set runtime path of "/home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/turtle_bot_servcli_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.722s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/turtle_bot_servcli_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.722s] -- Set runtime path of "/home/robotica/taller1_grupo15/install/turtle_bot_servcli/local/lib/python3.10/dist-packages/turtle_bot_servcli/turtle_bot_servcli_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.723s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/lib/libturtle_bot_servcli__rosidl_generator_py.so
+[14.723s] -- Set runtime path of "/home/robotica/taller1_grupo15/install/turtle_bot_servcli/lib/libturtle_bot_servcli__rosidl_generator_py.so" to ""
+[14.724s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/msg/Posicion.idl
+[14.724s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/srv/MoveRobotToPosition.idl
+[14.725s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/msg/Posicion.msg
+[14.725s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/srv/MoveRobotToPosition.srv
+[14.725s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/srv/MoveRobotToPosition_Request.msg
+[14.725s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/srv/MoveRobotToPosition_Response.msg
+[14.725s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/ament_index/resource_index/package_run_dependencies/turtle_bot_servcli
+[14.726s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/ament_index/resource_index/parent_prefix_path/turtle_bot_servcli
+[14.726s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/environment/ament_prefix_path.sh
+[14.726s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/environment/ament_prefix_path.dsv
+[14.726s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/environment/path.sh
+[14.727s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/environment/path.dsv
+[14.727s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/local_setup.bash
+[14.727s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/local_setup.sh
+[14.727s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/local_setup.zsh
+[14.728s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/local_setup.dsv
+[14.728s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/package.dsv
+[14.728s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/ament_index/resource_index/packages/turtle_bot_servcli
+[14.728s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/export_turtle_bot_servcli__rosidl_generator_cExport.cmake
+[14.731s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/export_turtle_bot_servcli__rosidl_generator_cExport-noconfig.cmake
+[14.731s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/export_turtle_bot_servcli__rosidl_typesupport_fastrtps_cExport.cmake
+[14.732s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/export_turtle_bot_servcli__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.732s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/export_turtle_bot_servcli__rosidl_generator_cppExport.cmake
+[14.732s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/export_turtle_bot_servcli__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.732s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/export_turtle_bot_servcli__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.733s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/turtle_bot_servcli__rosidl_typesupport_introspection_cExport.cmake
+[14.743s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/turtle_bot_servcli__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.743s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/turtle_bot_servcli__rosidl_typesupport_cExport.cmake
+[14.744s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/turtle_bot_servcli__rosidl_typesupport_cExport-noconfig.cmake
+[14.744s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/turtle_bot_servcli__rosidl_typesupport_introspection_cppExport.cmake
+[14.744s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/turtle_bot_servcli__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.744s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/turtle_bot_servcli__rosidl_typesupport_cppExport.cmake
+[14.745s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/turtle_bot_servcli__rosidl_typesupport_cppExport-noconfig.cmake
+[14.745s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/export_turtle_bot_servcli__rosidl_generator_pyExport.cmake
+[14.745s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/export_turtle_bot_servcli__rosidl_generator_pyExport-noconfig.cmake
+[14.745s] -- Installing: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/rosidl_cmake-extras.cmake
+[14.746s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.746s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.746s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/ament_cmake_export_libraries-extras.cmake
+[14.746s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/ament_cmake_export_targets-extras.cmake
+[14.746s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.747s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.747s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/turtle_bot_servcliConfig.cmake
+[14.747s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/cmake/turtle_bot_servcliConfig-version.cmake
+[14.747s] -- Up-to-date: /home/robotica/taller1_grupo15/install/turtle_bot_servcli/share/turtle_bot_servcli/package.xml
+[14.783s] Invoked command in '/home/robotica/taller1_grupo15/build/turtle_bot_servcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotica/taller1_grupo15/build/turtle_bot_servcli

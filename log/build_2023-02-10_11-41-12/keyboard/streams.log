@@ -1,0 +1,22 @@
+[2.326s] Invoking command in '/home/robotica/taller1_grupo15/keyboard': PYTHONPATH=/home/robotica/taller1_grupo15/build/keyboard/prefix_override:/home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/keyboard build --build-base /home/robotica/taller1_grupo15/build/keyboard/build install --record /home/robotica/taller1_grupo15/build/keyboard/install.log --single-version-externally-managed
+[3.282s] running egg_info
+[3.284s] writing ../build/keyboard/keyboard.egg-info/PKG-INFO
+[3.288s] writing dependency_links to ../build/keyboard/keyboard.egg-info/dependency_links.txt
+[3.289s] writing requirements to ../build/keyboard/keyboard.egg-info/requires.txt
+[3.291s] writing top-level names to ../build/keyboard/keyboard.egg-info/top_level.txt
+[3.304s] reading manifest file '../build/keyboard/keyboard.egg-info/SOURCES.txt'
+[3.305s] reading manifest template 'MANIFEST.in'
+[3.305s] adding license file 'LICENSE.txt'
+[3.307s] writing manifest file '../build/keyboard/keyboard.egg-info/SOURCES.txt'
+[3.311s] running build
+[3.311s] running build_py
+[3.319s] running install
+[3.320s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.320s]   warnings.warn(
+[3.321s] running install_lib
+[3.323s] running install_egg_info
+[3.329s] removing '/home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard-0.13.5-py3.10.egg-info' (and everything under it)
+[3.338s] Copying ../build/keyboard/keyboard.egg-info to /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard-0.13.5-py3.10.egg-info
+[3.352s] running install_scripts
+[3.435s] writing list of installed files to '/home/robotica/taller1_grupo15/build/keyboard/install.log'
+[3.581s] Invoked command in '/home/robotica/taller1_grupo15/keyboard' returned '0': PYTHONPATH=/home/robotica/taller1_grupo15/build/keyboard/prefix_override:/home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/keyboard build --build-base /home/robotica/taller1_grupo15/build/keyboard/build install --record /home/robotica/taller1_grupo15/build/keyboard/install.log --single-version-externally-managed

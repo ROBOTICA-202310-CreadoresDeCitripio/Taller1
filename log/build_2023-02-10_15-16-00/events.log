@@ -1,0 +1,223 @@
+[0.000000] (-) TimerEvent: {}
+[0.000760] (keyboard) JobQueued: {'identifier': 'keyboard', 'dependencies': OrderedDict()}
+[0.000888] (turtle_bot_15) JobQueued: {'identifier': 'turtle_bot_15', 'dependencies': OrderedDict()}
+[0.000925] (keyboard) JobStarted: {'identifier': 'keyboard'}
+[0.090979] (-) TimerEvent: {}
+[0.196794] (-) TimerEvent: {}
+[0.304441] (-) TimerEvent: {}
+[0.415129] (-) TimerEvent: {}
+[0.528114] (-) TimerEvent: {}
+[0.652634] (-) TimerEvent: {}
+[0.758170] (-) TimerEvent: {}
+[0.870700] (-) TimerEvent: {}
+[0.977472] (-) TimerEvent: {}
+[1.081649] (-) TimerEvent: {}
+[1.213887] (-) TimerEvent: {}
+[1.332807] (-) TimerEvent: {}
+[1.460065] (-) TimerEvent: {}
+[1.576201] (-) TimerEvent: {}
+[1.688054] (-) TimerEvent: {}
+[1.805404] (-) TimerEvent: {}
+[1.920174] (-) TimerEvent: {}
+[2.024849] (-) TimerEvent: {}
+[2.137345] (-) TimerEvent: {}
+[2.240323] (-) TimerEvent: {}
+[2.352474] (-) TimerEvent: {}
+[2.457113] (-) TimerEvent: {}
+[2.560198] (-) TimerEvent: {}
+[2.683719] (-) TimerEvent: {}
+[2.790892] (-) TimerEvent: {}
+[2.897267] (-) TimerEvent: {}
+[3.012193] (-) TimerEvent: {}
+[3.120253] (-) TimerEvent: {}
+[3.240756] (-) TimerEvent: {}
+[3.345915] (-) TimerEvent: {}
+[3.472228] (-) TimerEvent: {}
+[3.586782] (-) TimerEvent: {}
+[3.692195] (-) TimerEvent: {}
+[3.795507] (-) TimerEvent: {}
+[3.900847] (-) TimerEvent: {}
+[4.016746] (-) TimerEvent: {}
+[4.140064] (-) TimerEvent: {}
+[4.256158] (-) TimerEvent: {}
+[4.360435] (-) TimerEvent: {}
+[4.482781] (-) TimerEvent: {}
+[4.596893] (-) TimerEvent: {}
+[4.712473] (-) TimerEvent: {}
+[4.832535] (-) TimerEvent: {}
+[4.936238] (-) TimerEvent: {}
+[5.061845] (-) TimerEvent: {}
+[5.180028] (-) TimerEvent: {}
+[5.308075] (-) TimerEvent: {}
+[5.420282] (-) TimerEvent: {}
+[5.544585] (-) TimerEvent: {}
+[5.657511] (-) TimerEvent: {}
+[5.774472] (-) TimerEvent: {}
+[5.888642] (-) TimerEvent: {}
+[5.904151] (keyboard) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/keyboard', 'build', '--build-base', '/home/robotica/taller1_grupo15/build/keyboard/build', 'install', '--record', '/home/robotica/taller1_grupo15/build/keyboard/install.log', '--single-version-externally-managed'], 'cwd': '/home/robotica/taller1_grupo15/keyboard', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robotica', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robotica', 'OLDPWD': '/home/robotica', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'SYSTEMD_EXEC_PID': '1651', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robotica/taller1_grupo15/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotica', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robotica', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robotica-VirtualBox:@/tmp/.ICE-unix/1630,unix/robotica-VirtualBox:/tmp/.ICE-unix/1630', 'Coppelia_Root': '$/home/robotica/Downloads/Coppelia', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0cf0d978_f7ff_487c_a96e_012f4e416cdd', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KMFC01', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robotica/taller1_grupo15/install/turtle_bot_15:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robotica/taller1_grupo15/build/keyboard', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotica/taller1_grupo15/build/keyboard/prefix_override:/home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages:/home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages:/home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.993847] (-) TimerEvent: {}
+[6.120042] (-) TimerEvent: {}
+[6.236153] (-) TimerEvent: {}
+[6.349545] (-) TimerEvent: {}
+[6.465941] (-) TimerEvent: {}
+[6.572955] (-) TimerEvent: {}
+[6.696073] (-) TimerEvent: {}
+[6.852942] (-) TimerEvent: {}
+[6.956375] (-) TimerEvent: {}
+[7.064388] (-) TimerEvent: {}
+[7.197235] (-) TimerEvent: {}
+[7.336726] (-) TimerEvent: {}
+[7.448492] (-) TimerEvent: {}
+[7.554305] (-) TimerEvent: {}
+[7.658522] (-) TimerEvent: {}
+[7.784434] (-) TimerEvent: {}
+[7.925069] (-) TimerEvent: {}
+[8.036126] (-) TimerEvent: {}
+[8.140871] (-) TimerEvent: {}
+[8.256156] (-) TimerEvent: {}
+[8.256863] (keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[8.265277] (keyboard) StdoutLine: {'line': b'writing ../build/keyboard/keyboard.egg-info/PKG-INFO\n'}
+[8.276685] (keyboard) StdoutLine: {'line': b'writing dependency_links to ../build/keyboard/keyboard.egg-info/dependency_links.txt\n'}
+[8.281847] (keyboard) StdoutLine: {'line': b'writing requirements to ../build/keyboard/keyboard.egg-info/requires.txt\n'}
+[8.302316] (keyboard) StdoutLine: {'line': b'writing top-level names to ../build/keyboard/keyboard.egg-info/top_level.txt\n'}
+[8.328079] (keyboard) StdoutLine: {'line': b"reading manifest file '../build/keyboard/keyboard.egg-info/SOURCES.txt'\n"}
+[8.332113] (keyboard) StdoutLine: {'line': b"reading manifest template 'MANIFEST.in'\n"}
+[8.340265] (keyboard) StdoutLine: {'line': b"adding license file 'LICENSE.txt'\n"}
+[8.343112] (keyboard) StdoutLine: {'line': b"writing manifest file '../build/keyboard/keyboard.egg-info/SOURCES.txt'\n"}
+[8.360292] (-) TimerEvent: {}
+[8.361199] (keyboard) StdoutLine: {'line': b'running build\n'}
+[8.361613] (keyboard) StdoutLine: {'line': b'running build_py\n'}
+[8.366784] (keyboard) StdoutLine: {'line': b'running install\n'}
+[8.374172] (keyboard) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.374617] (keyboard) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.374820] (keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[8.400964] (keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.404830] (keyboard) StdoutLine: {'line': b"removing '/home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard-0.13.5-py3.10.egg-info' (and everything under it)\n"}
+[8.413917] (keyboard) StdoutLine: {'line': b'Copying ../build/keyboard/keyboard.egg-info to /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard-0.13.5-py3.10.egg-info\n'}
+[8.423323] (keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[8.464834] (-) TimerEvent: {}
+[8.576998] (-) TimerEvent: {}
+[8.672632] (keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/robotica/taller1_grupo15/build/keyboard/install.log'\n"}
+[8.693504] (-) TimerEvent: {}
+[8.817192] (-) TimerEvent: {}
+[8.943029] (-) TimerEvent: {}
+[9.070189] (-) TimerEvent: {}
+[9.196414] (keyboard) CommandEnded: {'returncode': 0}
+[9.198859] (-) TimerEvent: {}
+[9.362809] (-) TimerEvent: {}
+[9.489993] (-) TimerEvent: {}
+[9.545012] (keyboard) JobEnded: {'identifier': 'keyboard', 'rc': 0}
+[9.599122] (-) TimerEvent: {}
+[9.600593] (turtle_bot_15) JobStarted: {'identifier': 'turtle_bot_15'}
+[9.726763] (-) TimerEvent: {}
+[9.836336] (-) TimerEvent: {}
+[9.940714] (-) TimerEvent: {}
+[10.051914] (-) TimerEvent: {}
+[10.172607] (-) TimerEvent: {}
+[10.292303] (-) TimerEvent: {}
+[10.405439] (-) TimerEvent: {}
+[10.528684] (-) TimerEvent: {}
+[10.632215] (-) TimerEvent: {}
+[10.748180] (-) TimerEvent: {}
+[10.861390] (-) TimerEvent: {}
+[10.964455] (-) TimerEvent: {}
+[11.069611] (-) TimerEvent: {}
+[11.179423] (-) TimerEvent: {}
+[11.297350] (-) TimerEvent: {}
+[11.416617] (-) TimerEvent: {}
+[11.528291] (-) TimerEvent: {}
+[11.632202] (-) TimerEvent: {}
+[11.756073] (-) TimerEvent: {}
+[11.861550] (-) TimerEvent: {}
+[11.964171] (-) TimerEvent: {}
+[12.080339] (-) TimerEvent: {}
+[12.184090] (-) TimerEvent: {}
+[12.308314] (-) TimerEvent: {}
+[12.412982] (-) TimerEvent: {}
+[12.518555] (-) TimerEvent: {}
+[12.621998] (-) TimerEvent: {}
+[12.737254] (-) TimerEvent: {}
+[12.840237] (-) TimerEvent: {}
+[12.945266] (-) TimerEvent: {}
+[13.062285] (-) TimerEvent: {}
+[13.164221] (-) TimerEvent: {}
+[13.277907] (-) TimerEvent: {}
+[13.380000] (-) TimerEvent: {}
+[13.505186] (-) TimerEvent: {}
+[13.615847] (-) TimerEvent: {}
+[13.731603] (-) TimerEvent: {}
+[13.860453] (-) TimerEvent: {}
+[13.964378] (-) TimerEvent: {}
+[14.077855] (-) TimerEvent: {}
+[14.194922] (-) TimerEvent: {}
+[14.316244] (-) TimerEvent: {}
+[14.420587] (-) TimerEvent: {}
+[14.524725] (-) TimerEvent: {}
+[14.628607] (-) TimerEvent: {}
+[14.744139] (-) TimerEvent: {}
+[14.849883] (-) TimerEvent: {}
+[14.964321] (-) TimerEvent: {}
+[15.086312] (-) TimerEvent: {}
+[15.196331] (-) TimerEvent: {}
+[15.300687] (-) TimerEvent: {}
+[15.413960] (-) TimerEvent: {}
+[15.528083] (-) TimerEvent: {}
+[15.632152] (-) TimerEvent: {}
+[15.736269] (-) TimerEvent: {}
+[15.840768] (-) TimerEvent: {}
+[15.868218] (turtle_bot_15) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_bot_15', 'build', '--build-base', '/home/robotica/taller1_grupo15/build/turtle_bot_15/build', 'install', '--record', '/home/robotica/taller1_grupo15/build/turtle_bot_15/install.log', '--single-version-externally-managed'], 'cwd': '/home/robotica/taller1_grupo15/src/turtle_bot_15', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robotica', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robotica', 'OLDPWD': '/home/robotica', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'SYSTEMD_EXEC_PID': '1651', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robotica/taller1_grupo15/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotica', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robotica', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robotica-VirtualBox:@/tmp/.ICE-unix/1630,unix/robotica-VirtualBox:/tmp/.ICE-unix/1630', 'Coppelia_Root': '$/home/robotica/Downloads/Coppelia', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0cf0d978_f7ff_487c_a96e_012f4e416cdd', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KMFC01', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robotica/taller1_grupo15/install/turtle_bot_15:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robotica/taller1_grupo15/build/turtle_bot_15', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotica/taller1_grupo15/build/turtle_bot_15/prefix_override:/home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages:/home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages:/home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[15.945809] (-) TimerEvent: {}
+[16.066369] (-) TimerEvent: {}
+[16.196369] (-) TimerEvent: {}
+[16.306057] (-) TimerEvent: {}
+[16.417816] (-) TimerEvent: {}
+[16.536305] (-) TimerEvent: {}
+[16.644187] (-) TimerEvent: {}
+[16.745669] (-) TimerEvent: {}
+[16.866647] (-) TimerEvent: {}
+[16.988173] (-) TimerEvent: {}
+[17.122079] (-) TimerEvent: {}
+[17.236933] (-) TimerEvent: {}
+[17.341653] (-) TimerEvent: {}
+[17.464978] (-) TimerEvent: {}
+[17.581258] (-) TimerEvent: {}
+[17.702667] (-) TimerEvent: {}
+[17.812086] (-) TimerEvent: {}
+[17.928515] (-) TimerEvent: {}
+[18.034801] (-) TimerEvent: {}
+[18.035702] (turtle_bot_15) StdoutLine: {'line': b'running egg_info\n'}
+[18.040295] (turtle_bot_15) StdoutLine: {'line': b'writing ../../build/turtle_bot_15/turtle_bot_15.egg-info/PKG-INFO\n'}
+[18.054927] (turtle_bot_15) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_bot_15/turtle_bot_15.egg-info/dependency_links.txt\n'}
+[18.084598] (turtle_bot_15) StdoutLine: {'line': b'writing entry points to ../../build/turtle_bot_15/turtle_bot_15.egg-info/entry_points.txt\n'}
+[18.089737] (turtle_bot_15) StdoutLine: {'line': b'writing requirements to ../../build/turtle_bot_15/turtle_bot_15.egg-info/requires.txt\n'}
+[18.113961] (turtle_bot_15) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_bot_15/turtle_bot_15.egg-info/top_level.txt\n'}
+[18.136224] (-) TimerEvent: {}
+[18.138213] (turtle_bot_15) StdoutLine: {'line': b"reading manifest file '../../build/turtle_bot_15/turtle_bot_15.egg-info/SOURCES.txt'\n"}
+[18.157444] (turtle_bot_15) StdoutLine: {'line': b"writing manifest file '../../build/turtle_bot_15/turtle_bot_15.egg-info/SOURCES.txt'\n"}
+[18.162618] (turtle_bot_15) StdoutLine: {'line': b'running build\n'}
+[18.166460] (turtle_bot_15) StdoutLine: {'line': b'running build_py\n'}
+[18.167884] (turtle_bot_15) StdoutLine: {'line': b'copying turtle_bot_15/turtle_bot_teleop.py -> /home/robotica/taller1_grupo15/build/turtle_bot_15/build/lib/turtle_bot_15\n'}
+[18.179415] (turtle_bot_15) StdoutLine: {'line': b'running install\n'}
+[18.180963] (turtle_bot_15) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[18.181912] (turtle_bot_15) StderrLine: {'line': b'  warnings.warn(\n'}
+[18.196282] (turtle_bot_15) StdoutLine: {'line': b'running install_lib\n'}
+[18.202951] (turtle_bot_15) StdoutLine: {'line': b'copying /home/robotica/taller1_grupo15/build/turtle_bot_15/build/lib/turtle_bot_15/turtle_bot_teleop.py -> /home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15\n'}
+[18.228905] (turtle_bot_15) StdoutLine: {'line': b'byte-compiling /home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15/turtle_bot_teleop.py to turtle_bot_teleop.cpython-310.pyc\n'}
+[18.238290] (-) TimerEvent: {}
+[18.239968] (turtle_bot_15) StdoutLine: {'line': b'running install_data\n'}
+[18.257183] (turtle_bot_15) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.288345] (turtle_bot_15) StdoutLine: {'line': b"removing '/home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[18.300839] (turtle_bot_15) StdoutLine: {'line': b'Copying ../../build/turtle_bot_15/turtle_bot_15.egg-info to /home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15-0.0.0-py3.10.egg-info\n'}
+[18.313105] (turtle_bot_15) StdoutLine: {'line': b'running install_scripts\n'}
+[18.341801] (-) TimerEvent: {}
+[18.455218] (-) TimerEvent: {}
+[18.584129] (-) TimerEvent: {}
+[18.592351] (turtle_bot_15) StdoutLine: {'line': b'Installing turtle_bot_teleop script to /home/robotica/taller1_grupo15/install/turtle_bot_15/lib/turtle_bot_15\n'}
+[18.603294] (turtle_bot_15) StdoutLine: {'line': b"writing list of installed files to '/home/robotica/taller1_grupo15/build/turtle_bot_15/install.log'\n"}
+[18.698272] (-) TimerEvent: {}
+[18.801506] (-) TimerEvent: {}
+[18.905240] (-) TimerEvent: {}
+[18.931991] (turtle_bot_15) CommandEnded: {'returncode': 0}
+[19.005822] (-) TimerEvent: {}
+[19.077255] (turtle_bot_15) JobEnded: {'identifier': 'turtle_bot_15', 'rc': 0}
+[19.082924] (-) EventReactorShutdown: {}
