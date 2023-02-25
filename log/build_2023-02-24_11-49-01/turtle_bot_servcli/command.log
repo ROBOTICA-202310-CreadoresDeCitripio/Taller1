@@ -1,0 +1,6 @@
+Invoking command in '/home/robotica/taller1_grupo15/build/turtle_bot_servcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotica/taller1_grupo15/src/turtle_bot_servcli -DCMAKE_INSTALL_PREFIX=/home/robotica/taller1_grupo15/install/turtle_bot_servcli
+Invoked command in '/home/robotica/taller1_grupo15/build/turtle_bot_servcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotica/taller1_grupo15/src/turtle_bot_servcli -DCMAKE_INSTALL_PREFIX=/home/robotica/taller1_grupo15/install/turtle_bot_servcli
+Invoking command in '/home/robotica/taller1_grupo15/build/turtle_bot_servcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotica/taller1_grupo15/build/turtle_bot_servcli -- -j1 -l1
+Invoked command in '/home/robotica/taller1_grupo15/build/turtle_bot_servcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotica/taller1_grupo15/build/turtle_bot_servcli -- -j1 -l1
+Invoking command in '/home/robotica/taller1_grupo15/build/turtle_bot_servcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotica/taller1_grupo15/build/turtle_bot_servcli
+Invoked command in '/home/robotica/taller1_grupo15/build/turtle_bot_servcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotica/taller1_grupo15/build/turtle_bot_servcli

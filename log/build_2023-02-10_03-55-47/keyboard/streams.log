@@ -1,0 +1,75 @@
+[1.451s] Invoking command in '/home/robotica/taller1_grupo15/keyboard': PYTHONPATH=/home/robotica/taller1_grupo15/build/keyboard/prefix_override:/home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/keyboard build --build-base /home/robotica/taller1_grupo15/build/keyboard/build install --record /home/robotica/taller1_grupo15/build/keyboard/install.log --single-version-externally-managed
+[2.111s] running egg_info
+[2.112s] creating ../build/keyboard/keyboard.egg-info
+[2.120s] writing ../build/keyboard/keyboard.egg-info/PKG-INFO
+[2.123s] writing dependency_links to ../build/keyboard/keyboard.egg-info/dependency_links.txt
+[2.124s] writing requirements to ../build/keyboard/keyboard.egg-info/requires.txt
+[2.124s] writing top-level names to ../build/keyboard/keyboard.egg-info/top_level.txt
+[2.125s] writing manifest file '../build/keyboard/keyboard.egg-info/SOURCES.txt'
+[2.145s] reading manifest file '../build/keyboard/keyboard.egg-info/SOURCES.txt'
+[2.151s] reading manifest template 'MANIFEST.in'
+[2.152s] adding license file 'LICENSE.txt'
+[2.153s] writing manifest file '../build/keyboard/keyboard.egg-info/SOURCES.txt'
+[2.156s] running build
+[2.156s] running build_py
+[2.166s] creating /home/robotica/taller1_grupo15/build/keyboard/build
+[2.166s] creating /home/robotica/taller1_grupo15/build/keyboard/build/lib
+[2.167s] creating /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard
+[2.167s] copying keyboard/_canonical_names.py -> /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard
+[2.167s] copying keyboard/_darwinmouse.py -> /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard
+[2.168s] copying keyboard/_nixmouse.py -> /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard
+[2.168s] copying keyboard/_winmouse.py -> /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard
+[2.168s] copying keyboard/__main__.py -> /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard
+[2.169s] copying keyboard/_keyboard_event.py -> /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard
+[2.169s] copying keyboard/_mouse_event.py -> /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard
+[2.169s] copying keyboard/mouse.py -> /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard
+[2.170s] copying keyboard/_darwinkeyboard.py -> /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard
+[2.170s] copying keyboard/_keyboard_tests.py -> /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard
+[2.170s] copying keyboard/_mouse_tests.py -> /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard
+[2.171s] copying keyboard/__init__.py -> /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard
+[2.171s] copying keyboard/_winkeyboard.py -> /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard
+[2.171s] copying keyboard/_nixcommon.py -> /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard
+[2.172s] copying keyboard/_nixkeyboard.py -> /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard
+[2.172s] copying keyboard/_generic.py -> /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard
+[2.173s] running install
+[2.184s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.184s]   warnings.warn(
+[2.184s] running install_lib
+[2.217s] creating /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard
+[2.218s] copying /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard/_canonical_names.py -> /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard
+[2.218s] copying /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard/_darwinmouse.py -> /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard
+[2.218s] copying /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard/_nixmouse.py -> /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard
+[2.219s] copying /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard/_winmouse.py -> /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard
+[2.219s] copying /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard/__main__.py -> /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard
+[2.219s] copying /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard/_keyboard_event.py -> /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard
+[2.220s] copying /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard/_mouse_event.py -> /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard
+[2.220s] copying /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard/mouse.py -> /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard
+[2.220s] copying /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard/_darwinkeyboard.py -> /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard
+[2.221s] copying /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard/_keyboard_tests.py -> /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard
+[2.221s] copying /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard/_mouse_tests.py -> /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard
+[2.221s] copying /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard/__init__.py -> /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard
+[2.223s] copying /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard/_winkeyboard.py -> /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard
+[2.224s] copying /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard/_nixcommon.py -> /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard
+[2.225s] copying /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard/_nixkeyboard.py -> /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard
+[2.225s] copying /home/robotica/taller1_grupo15/build/keyboard/build/lib/keyboard/_generic.py -> /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard
+[2.226s] byte-compiling /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard/_canonical_names.py to _canonical_names.cpython-310.pyc
+[2.259s] byte-compiling /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard/_darwinmouse.py to _darwinmouse.cpython-310.pyc
+[2.265s] byte-compiling /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard/_nixmouse.py to _nixmouse.cpython-310.pyc
+[2.268s] byte-compiling /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard/_winmouse.py to _winmouse.cpython-310.pyc
+[2.273s] byte-compiling /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard/__main__.py to __main__.cpython-310.pyc
+[2.276s] byte-compiling /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard/_keyboard_event.py to _keyboard_event.cpython-310.pyc
+[2.289s] byte-compiling /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard/_mouse_event.py to _mouse_event.cpython-310.pyc
+[2.299s] byte-compiling /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard/mouse.py to mouse.cpython-310.pyc
+[2.301s] byte-compiling /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard/_darwinkeyboard.py to _darwinkeyboard.cpython-310.pyc
+[2.317s] byte-compiling /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard/_keyboard_tests.py to _keyboard_tests.cpython-310.pyc
+[2.368s] byte-compiling /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard/_mouse_tests.py to _mouse_tests.cpython-310.pyc
+[2.372s] byte-compiling /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard/__init__.py to __init__.cpython-310.pyc
+[2.403s] byte-compiling /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard/_winkeyboard.py to _winkeyboard.cpython-310.pyc
+[2.422s] byte-compiling /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard/_nixcommon.py to _nixcommon.cpython-310.pyc
+[2.441s] byte-compiling /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard/_nixkeyboard.py to _nixkeyboard.cpython-310.pyc
+[2.444s] byte-compiling /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard/_generic.py to _generic.cpython-310.pyc
+[2.455s] running install_egg_info
+[2.457s] Copying ../build/keyboard/keyboard.egg-info to /home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages/keyboard-0.13.5-py3.10.egg-info
+[2.459s] running install_scripts
+[2.552s] writing list of installed files to '/home/robotica/taller1_grupo15/build/keyboard/install.log'
+[2.725s] Invoked command in '/home/robotica/taller1_grupo15/keyboard' returned '0': PYTHONPATH=/home/robotica/taller1_grupo15/build/keyboard/prefix_override:/home/robotica/taller1_grupo15/install/keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/keyboard build --build-base /home/robotica/taller1_grupo15/build/keyboard/build install --record /home/robotica/taller1_grupo15/build/keyboard/install.log --single-version-externally-managed

@@ -1,0 +1,32 @@
+[3.137s] Invoking command in '/home/robotica/taller1_grupo15/src/turtle_bot_15': PYTHONPATH=/home/robotica/taller1_grupo15/build/turtle_bot_15/prefix_override:/home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_15 build --build-base /home/robotica/taller1_grupo15/build/turtle_bot_15/build install --record /home/robotica/taller1_grupo15/build/turtle_bot_15/install.log --single-version-externally-managed
+[3.808s] running egg_info
+[3.811s] writing ../../build/turtle_bot_15/turtle_bot_15.egg-info/PKG-INFO
+[3.813s] writing dependency_links to ../../build/turtle_bot_15/turtle_bot_15.egg-info/dependency_links.txt
+[3.831s] writing entry points to ../../build/turtle_bot_15/turtle_bot_15.egg-info/entry_points.txt
+[3.834s] writing requirements to ../../build/turtle_bot_15/turtle_bot_15.egg-info/requires.txt
+[3.837s] writing top-level names to ../../build/turtle_bot_15/turtle_bot_15.egg-info/top_level.txt
+[3.853s] reading manifest file '../../build/turtle_bot_15/turtle_bot_15.egg-info/SOURCES.txt'
+[3.857s] writing manifest file '../../build/turtle_bot_15/turtle_bot_15.egg-info/SOURCES.txt'
+[3.861s] running build
+[3.862s] running build_py
+[3.863s] copying turtle_bot_15/turtle_bot_interface.py -> /home/robotica/taller1_grupo15/build/turtle_bot_15/build/lib/turtle_bot_15
+[3.864s] running install
+[3.865s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.866s]   warnings.warn(
+[3.867s] running install_lib
+[3.869s] copying /home/robotica/taller1_grupo15/build/turtle_bot_15/build/lib/turtle_bot_15/turtle_bot_interface.py -> /home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15
+[3.873s] byte-compiling /home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15/turtle_bot_interface.py to turtle_bot_interface.cpython-310.pyc
+[3.874s]   File "/home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15/turtle_bot_interface.py", line 24
+[3.875s]     rclpy::init(args=args)
+[3.875s]           ^
+[3.875s] SyntaxError: invalid syntax
+[3.876s] 
+[3.877s] running install_data
+[3.880s] running install_egg_info
+[3.892s] removing '/home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15-0.0.0-py3.10.egg-info' (and everything under it)
+[3.893s] Copying ../../build/turtle_bot_15/turtle_bot_15.egg-info to /home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15-0.0.0-py3.10.egg-info
+[3.896s] running install_scripts
+[3.989s] Installing listener script to /home/robotica/taller1_grupo15/install/turtle_bot_15/lib/turtle_bot_15
+[3.996s] Installing talker script to /home/robotica/taller1_grupo15/install/turtle_bot_15/lib/turtle_bot_15
+[4.001s] writing list of installed files to '/home/robotica/taller1_grupo15/build/turtle_bot_15/install.log'
+[4.083s] Invoked command in '/home/robotica/taller1_grupo15/src/turtle_bot_15' returned '0': PYTHONPATH=/home/robotica/taller1_grupo15/build/turtle_bot_15/prefix_override:/home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_15 build --build-base /home/robotica/taller1_grupo15/build/turtle_bot_15/build install --record /home/robotica/taller1_grupo15/build/turtle_bot_15/install.log --single-version-externally-managed
