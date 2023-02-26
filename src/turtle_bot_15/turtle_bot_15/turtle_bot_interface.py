@@ -18,8 +18,6 @@ class TurtleBotInterface(Node):
         self.subscriber = self.create_subscription(Twist,'turtle_bot_position', self.positionCallback, 10)
 
     def positionCallback(self, msg):
-        global posX
-        global posY
         posX = msg.linear.x
         posY = msg.linear.y
         self.get_logger().info("Posición en x: " + str(posX))
