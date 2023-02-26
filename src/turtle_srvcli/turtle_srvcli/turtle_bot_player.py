@@ -17,7 +17,7 @@ class TurtleBotPlayer(Node):
 
     def move_robot_callback(self, request, response):
         response.position_destiny = request.a + request.b
-        self.get_logger().info('Incoming request\na: %d b: %d' % (request.a, request.b))
+        #self.get_logger().info('Incoming request\na: %d b: %d' % (request.a, request.b))
 
         return response
 
