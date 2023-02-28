@@ -1,7 +1,0 @@
-{
-  "package_name": "turtle_bot_servcli",
-  "non_idl_tuples": [
-    "/home/robotica/taller1_grupo15/src/turtle_bot_servcli:msg/Posicion.msg",
-    "/home/robotica/taller1_grupo15/src/turtle_bot_servcli:srv/MoveRobotToPosition.srv"
-  ]
-}
