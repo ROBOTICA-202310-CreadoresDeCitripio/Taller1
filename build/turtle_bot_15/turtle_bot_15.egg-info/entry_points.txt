@@ -1,4 +1,0 @@
-[console_scripts]
-turtle_bot_interface = turtle_bot_15.turtle_bot_interface:main
-turtle_bot_teleop = turtle_bot_15.turtle_bot_teleop:main
-
