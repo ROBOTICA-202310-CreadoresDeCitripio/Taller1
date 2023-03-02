@@ -1,111 +1,81 @@
 import rclpy
 from rclpy.node import Node
-
-import threading
-import time
-
-import numpy as np
-import random
-import tkinter
-from tkinter import filedialog
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-from matplotlib import pyplot as plt, animation
-
 from geometry_msgs.msg import Twist
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+import tkinter as tk
 
-global x
-x = [0]
-global y
-y = [0]
 
 class TurtleBotInterface(Node):
-
     def __init__(self):
-	# Inicializar la superclase Nodo de la cual hereda con el nombre requerido
-        super().__init__('turtle_bot_interface')
-        # Suscribirse en el tópico turtle_bot_position el mensaje tipo Twist
-        self.listener()
+        super().__init__("turtle_bot_interface")
+        self.subscription = self.create_subscription(Twist, "turtlebot_position", self.callback, 10)
+        self.subscription
 
-    def listener(self):
-        self.subscriber = self.create_subscription(Twist,'turtlebot_position', self.positionCallback, 10)
+        # Crear ventana principal de Tkinter
+        self.root = tk.Tk()
+        self.root.title("TurtleBot Interface")
 
-    def positionCallback(self, msg):
-        posX = float(msg.linear.x)
-        x.append(posX)
-        posY = float(msg.linear.y)
-        y.append(posY)
-        self.get_logger().info(str(posX))
-        self.get_logger().info(str(posY))
+        # Crear figura de Matplotlib
+        self.fig, self.ax = plt.subplots()
+        self.ax.set_xlim(-3, 3)
+        self.ax.set_ylim(-3, 3)
+        self.xdata = []
+        self.ydata = []
+        self.line, = self.ax.plot(self.xdata, self.ydata)
 
+        # Crea un botón que llame a la función save_figure cuando se haga clic en él
+        save_button = tk.Button(self.root, text="Guardar", command=self.save_figure)
+        save_button.pack(side=tk.BOTTOM)
 
-# Creación e inicialización del plot
-plt.rcParams["figure.figsize"] = [5.00, 5.00]
-plt.rcParams["figure.autolayout"] = True
-plt.axes(xlim=(-10, 10), ylim=(-10, 10))
-fig = plt.Figure(dpi=100)
-ax = fig.add_subplot(xlim=(-10, 10), ylim=(-10, 10))
-line, = ax.plot([], [], lw=2)
+        # Crea un cuadro de texto que actualiza el titulo de la gráfica
+        self.text_field = tk.Text(self.root, height=1, width=40, wrap="word")
+        self.text_field.pack()
 
-def begin():
-    line.set_data([], [])
-    return line,
+        # Crea un botón que actualiza el titulo de la gráfica
+        title_button = tk.Button(self.root, text="Cambiar título", command=self.cambiar_titulo)
+        title_button.pack()
 
-def animate(i, x, y):
-    line.set_data(x,y)
-    ax.plot(x, y)
-    return line,
+        # Crear un widget de Matplotlib que se puede agregar a la ventana principal de Tkinter
+        self.canvas = FigureCanvasTkAgg(self.fig, master=self.root)
+        self.canvas.draw()
+        self.canvas.get_tk_widget().pack(side=tk.TOP, fill=tk.BOTH, expand=1)
 
-anim = animation.FuncAnimation(fig, animate, fargs=(x, y), init_func=begin, interval=1)
+    def actualizar_titulo(self, new_title):
+        self.fig_title = new_title
+        self.ax.set_title(new_title)
 
-def actualizar_titulo(text_field):
-    fig.suptitle(text_field.get('1.0','end'))
+    def cambiar_titulo(self):
+        new_title = self.text_field.get('1.0','end')
+        self.actualizar_titulo(new_title)
 
-def save_figure():
-    # Pídele al usuario que seleccione un archivo
-    file_path = filedialog.asksaveasfilename(defaultextension=".png")
-    # Guarda la figura de Matplotlib en el archivo seleccionado
-    if file_path:
-        fig.savefig(file_path)
+    def save_figure(self):
+        # Pídele al usuario que seleccione un archivo
+        file_path = tk.filedialog.asksaveasfilename(defaultextension=".png")
+        # Guarda la figura de Matplotlib en el archivo seleccionado
+        if file_path:
+            self.fig.savefig(file_path)
 
+    def callback(self, msg):
+        x = msg.linear.x
+        y = msg.linear.y
+        self.xdata.append(x)
+        self.ydata.append(y)
+        self.line.set_data(self.xdata, self.ydata)
+        plt.draw()
+        plt.pause(0.01)
+        plt.show(block=False)
 
-# =============== MÉTODO MAIN PARA EJECUCIÓN ===============
 def main(args=None):
-    # Creación e inicialización de la ventana de la GUI
-    mainWindow = tkinter.Tk()
-    mainWindow.wm_title("Posición del Turtle Bot 15")
-
-    # Crea un botón que llame a la función save_figure cuando se haga clic en él
-    save_button = tkinter.Button(mainWindow, text="Guardar", command=save_figure)
-    save_button.pack(side=tkinter.BOTTOM)
-
-    # Crea un cuadro de texto que actualiza el titulo de la gráfica
-    text_field = tkinter.Text(mainWindow, height=1, width=40, wrap="word")
-    text_field.pack()
-
-    # Crea un botón que actualiza el titulo de la gráfica
-    title_button = tkinter.Button(mainWindow, text="Cambiar título", command=actualizar_titulo(text_field))
-    title_button.pack()
-
-    # Establecer el área de dibujo para colocar la gráfica
-    canvas = FigureCanvasTkAgg(fig, master=mainWindow)
-    canvas.draw()
-    canvas.get_tk_widget().pack(side=tkinter.TOP, fill=tkinter.BOTH, expand=1)
-
-    #anim = animation.FuncAnimation(fig, animate, fargs=(x, y), init_func=begin, interval=1)
-    tkinter.mainloop()
-
     rclpy.init(args=args)
     turtle_bot_interface = TurtleBotInterface()
-    #t1 = threading.Thread(target=turtle_bot_interface.listener)
-    #t1.start()
+    rclpy.spin(turtle_bot_interface)
 
-    #InterfazGrafica()
-    # Destroy the node explicitly
-    # (optional - otherwise it will be done automatically
-    # when the garbage collector destroys the node object)
+    # Arrancar la GUI de Tkinter
+    turtle_bot_interface.root.mainloop()
+
     turtle_bot_interface.destroy_node()
     rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()
