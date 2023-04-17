@@ -16,7 +16,6 @@ class TurtleBotTeleop(Node):
         self.angular = float(input("Por favor ingrese la velocidad angular (en deg/s - max180): "))
         # Publicar en el tópico turtlebot_cmdVel el mensaje tipo Twist
         self.publisher_ = self.create_publisher(Twist,'turtlebot_cmdVel', 10)
-        self.publisherPos = self.create_publisher(Twist,'turtle_bot_position',10)
         # Definir el Listener de la librería pynput para que detecte tecleo
         with Listener(on_press=self.callback_pressed, on_release=self.callback_released) as listener:
             listener.join()
@@ -28,7 +27,6 @@ class TurtleBotTeleop(Node):
     def callback_pressed(self, key):
         # Actualización de velocidades cuando se oprime una tecla
         vel_msg = Twist()
-        pos = Twist()
         # Primer movimiento del robot - Traslacional hacia adelante
         if key == Key.up:
             vel_msg.linear.x = self.linear
@@ -67,13 +65,11 @@ class TurtleBotTeleop(Node):
             self.get_logger().info('Movimiento rotacional hacia la Izquierda')
         # Realizar la publicación de los datos actualizados de velocidad
         self.publisher_.publish(vel_msg)
-        self.publisherPos.publish(pos)
         
 
     def callback_released(self, key):
         # Actualización a cero de las velocidades cuando se suelta una tecla
         vel_msg = Twist()
-        pos = Twist()
         vel_msg.linear.x = 0.0
         vel_msg.linear.y = 0.0
         vel_msg.linear.z = 0.0
@@ -81,7 +77,6 @@ class TurtleBotTeleop(Node):
         vel_msg.angular.y = 0.0
         vel_msg.angular.z = 0.0
         self.publisher_.publish(vel_msg)
-        self.publisherPos.publish(pos)
         self.get_logger().info('No hay teclas presionadas. El robot se está deteniendo.')
         if key == Key.esc:
             # Stop listener when ESC is pressed
@@ -105,4 +100,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-

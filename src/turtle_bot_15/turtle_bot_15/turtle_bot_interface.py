@@ -1,86 +1,163 @@
 import rclpy
 from rclpy.node import Node
-import tkinter as tk
-import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-from matplotlib.figure import Figure
-from tkinter import filedialog
-
 from geometry_msgs.msg import Twist
+import tkinter as tk
+import pygame
 
+
+'''
 class TurtleBotInterface(Node):
-
+    # ==================================================================================================
+    # Definir el constructor del nodo, el cual llama a la ventana principal e inicia la suscripción
+    # ==================================================================================================
     def __init__(self):
-	# Inicializar la superclase Nodo de la cual hereda con el nombre requerido
-        super().__init__('turtle_bot_interface')
-        # Suscribirse en el tópico turtle_bot_position el mensaje tipo Twist
-        self.subscriber = self.create_subscription(Twist,'turtle_bot_position', self.positionCallback, 10)
+        # Inicializar la superclase Node para generar el nodo con su nombre
+        super().__init__("turtle_bot_interface")
 
-    def positionCallback(self, msg):
-        posX = msg.linear.x
-        posY = msg.linear.y
-        self.get_logger().info("Posición en x: " + str(posX))
-        self.get_logger().info("Posición en x: " + str(posY))
+        # Suscribir a tópicos de posición y de velocidad
+        self.subscribe_to_pos = self.create_subscription(
+            Twist, "turtlebot_position", self.callback_position, 10)
+        self.subscribe_to_vel = self.create_subscription(
+            Twist, "turtlebot_cmdVel", self.callback_velocity, 10)
+        self.subscribe_to_pos, self.subscribe_to_vel
+
+        # Diálogo para funcionamiento inicial
+        dialog = InitialMenu("¡Bienvenid@ a la aplicación del TurtleBot 15!", "Seleccione una opción:",
+                             "DIBUJAR TRAYECTORIA", "GUARDAR TRAYECTORIA", "REPRODUCIR TRAYECTORIA")
+        dialog.run()
+'''
+
+'''        
+class InitialMenu:
+    # ==================================================================================================
+    # Constructor del menú inicial de la aplicación
+    # ==================================================================================================
+    def __init__(self, message_1, message_2, option_1, option_2, option_3):
+        self.window = tk.Tk()
+        self.window.title("Turtlebot Application Start Menu")
+        self.window.geometry("500x100")
+        self.window.resizable(False, False)
+
+        # Crear los mensajes que se mostrarán en los botones
+        self.label_1 = tk.Label(self.window, text=message_1)
+        self.label_1.pack(pady=5)
+        self.label_2 = tk.Label(self.window, text=message_2)
+        self.label_2.pack(pady=5)
+
+        # Crear los botones que se incorporarán en la ventana
+        self.button_1 = tk.Button(
+            self.window, text=option_1, command=self.select_draw_trajectory)
+        self.button_1.pack(side=tk.LEFT, padx=10)
+        self.button_2 = tk.Button(
+            self.window, text=option_2, command=self.select_save_trajectory)
+        self.button_2.pack(side=tk.LEFT, padx=10)
+        self.button_3 = tk.Button(
+            self.window, text=option_3, command=self.select_play_trajectory)
+        self.button_3.pack(side=tk.RIGHT, padx=10)
+
+    # ==================================================================================================
+    # Definir los métodos de la clase -> Event Listeners de hacer click a algún botón
+    # ==================================================================================================
+    def select_draw_trajectory(self):
+        # Primera opción: Dibujar la trayectoria seguida por el robot
+        self.window.destroy()
+        # Inicializar la GUI específica para Dibujo de Trayectoria
+        draw_gui = DrawWindow()
+        draw_gui.run()
+
+    def select_save_trajectory(self):
+        # Segunda opción: Guardar la trayectoria seguida por el robot
+        self.window.destroy()
+        # Inicializar la GUI específica para Guardado de Trayectoria
+        save_gui = SaveWindow()
+        save_gui.run()
+
+    def select_play_trajectory(self):
+        # Tercera opción: Reporoducir la trayectoria seguida por el robot
+        self.window.destroy()
+        # Inicializar la GUI específica para Reproducción de Trayectoria
+        play_gui = PlayWindow()
+        play_gui.run()
+
+    def run(self):
+        # Correr la ventana con el menú inicial
+        self.window.mainloop()
 
 
-# =============== MÉTODO MAIN PARA EJECUCIÓN ===============
-def main(args=None):
-    rclpy.init(args=args)
+class Window:
+    # ==================================================================================================
+    # Constructor de la ventana de interfaz para pintar trayectoria en tiempo real
+    # ==================================================================================================
+    def __init__(self):
+        # Generar una ventana básica de Tkinter para albergar la gráfica y otros botones
+        self.window = tk.Tk()
+        self.window.geometry("500x500")
+        self.window.resizable(False, False)
+        # Insertar un botón para guardar la gráfica en cualquier momento como JPG
+        self.save_button = tk.Button(self.window, text="GUARDAR GRÁFICA", command=self.save_figure)
+        self.save_button.pack(side=tk.BOTTOM)
+        # Insertar un campo para almacenar la gráfica en la interfaz
+        self.graph = tk.Canvas(self.window, width=500, height=500, bg="white")
 
-    turtle_bot_interface = TurtleBotInterface()
 
-    rclpy.spin(turtle_bot_interface)
+    # ==================================================================================================
+    # Definir los métodos de la clase -> Correr ventana y guardar JPG
+    # ==================================================================================================
+    def run(self):
+        self.window.mainloop()
 
-    # Destroy the node explicitly
-    # (optional - otherwise it will be done automatically
-    # when the garbage collector destroys the node object)
-    turtle_bot_interface.destroy_node()
-    rclpy.shutdown()
+    def save_figure(self):
+        # Pídele al usuario que seleccione un archivo
+        file_path = tk.filedialog.asksaveasfilename(defaultextension=".png")
+        # Guarda la figura de Matplotlib en el archivo seleccionado
+        if file_path:
+            postscript_data = self.graph.postscript(colormode='color')
+            pil_image = Image.open(io.BytesIO(postscript_data.encode('utf-8')))
+            pil_image.save(file_path)
 
 
-if __name__ == '__main__':
-    main()
+class DrawWindow(Window):
+    # ==================================================================================================
+    # Constructor de la ventana de interfaz para pintar trayectoria en tiempo real
+    # ==================================================================================================
+    def __init__(self):
+        # Inicializar la superclase Window para heredar atributos y métodos
+        super().__init__()
+        self.window.title("TurtleBot Position - Draw Mode")
 
-# Crear ventana
-mainWindow = tk.Tk()
-mainWindow.title("Posición del Turtle Bot 15")
-mainWindow.geometry("400x450")
+    # ==================================================================================================
+    # Definir los métodos de la clase -> 
+    # ==================================================================================================
 
-# Permitir actualizar título de la gráfica
-def actualizar_titulo():
-    fig.suptitle(text_field.get('1.0','end'))
 
-# Agregar direccion guardar
-def save_figure():
-    # Pídele al usuario que seleccione un archivo
-    file_path = filedialog.asksaveasfilename(defaultextension=".png")
-    # Guarda la figura de Matplotlib en el archivo seleccionado
-    if file_path:
-        fig.savefig(file_path)
+class SaveWindow(Window):
+    # ==================================================================================================
+    # Constructor de la ventana de interfaz para guardar trayectoria en archivo TXT
+    # ==================================================================================================
+    def __init__(self):
+        # Inicializar la superclase Window para heredar atributos y métodos
+        super().__init__()
+        self.window.title("TurtleBot Position - Save Mode")
+        self.stopsave_button = tk.Button(self.window, text="DETENER GRABACIÓN", background="yellow", command=self.stop_save)
+        self.stopsave_button.pack()
 
-# Crea un cuadro de texto que actualiza el titulo de la gráfica
-text_field = tk.Text(mainWindow, height=1, width=40, wrap="word")
-text_field.pack()
+    # ==================================================================================================
+    # Definir los métodos de la clase -> Detener la grabación
+    # ==================================================================================================
+    def stop_save(self):
+        pass
 
-# Crea un botón que actualiza el titulo de la gráfica
-title_button = tk.Button(mainWindow, text="Cambiar título", command=actualizar_titulo)
-title_button.pack()
 
-# Crear lienzo de canvas
-canvas = tk.Canvas(mainWindow, width=1000, height=1000)
-canvas.pack()
+class PlayWindow(Window):
+    # ==================================================================================================
+    # Constructor de la ventana de interfaz para reproducir trayectoria desde TXT
+    # ==================================================================================================
+    def __init__(self):
+        # Inicializar la superclase Window para heredar atributos y métodos
+        super().__init__()
+        self.window.title("TurtleBot Position - Player Mode")
 
-# Crear gráfico con Matplotlib
-fig = Figure(figsize=(5, 4), dpi=90)
-# Agregar gráfico al lienzo de canvas
-canvas_matplotlib = FigureCanvasTkAgg(fig, master=canvas)
-canvas_matplotlib.draw()
-canvas_matplotlib.get_tk_widget().pack()
-
-# Crea un botón que llame a la función save_figure cuando se haga clic en él
-save_button = tk.Button(mainWindow, text="Guardar", command=save_figure)
-save_button.pack()
-
-# Mostrar ventana
-tk.mainloop()
+    # ==================================================================================================
+    # Definir los métodos de la clase -> 
+    # ==================================================================================================
+'''

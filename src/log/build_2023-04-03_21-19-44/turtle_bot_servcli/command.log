@@ -1,0 +1,2 @@
+Invoking command in '/home/robotica/Robotica/Taller 1/src/build/turtle_bot_servcli': /usr/bin/cmake /home/robotica/Robotica/Taller 1/src/turtle_bot_servcli -DCMAKE_INSTALL_PREFIX=/home/robotica/Robotica/Taller 1/src/install/turtle_bot_servcli
+Invoked command in '/home/robotica/Robotica/Taller 1/src/build/turtle_bot_servcli' returned '1': /usr/bin/cmake /home/robotica/Robotica/Taller 1/src/turtle_bot_servcli -DCMAKE_INSTALL_PREFIX=/home/robotica/Robotica/Taller 1/src/install/turtle_bot_servcli

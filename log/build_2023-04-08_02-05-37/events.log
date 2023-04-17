@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.001753] (turtle_bot_15) JobQueued: {'identifier': 'turtle_bot_15', 'dependencies': OrderedDict()}
+[0.002689] (turtle_bot_15) JobStarted: {'identifier': 'turtle_bot_15'}
+[0.097043] (-) TimerEvent: {}
+[0.200436] (-) TimerEvent: {}
+[0.303257] (-) TimerEvent: {}
+[0.429066] (-) TimerEvent: {}
+[0.544349] (-) TimerEvent: {}
+[0.648093] (-) TimerEvent: {}
+[0.750242] (-) TimerEvent: {}
+[0.869068] (-) TimerEvent: {}
+[1.035224] (-) TimerEvent: {}
+[1.144933] (-) TimerEvent: {}
+[1.303444] (-) TimerEvent: {}
+[1.413658] (-) TimerEvent: {}
+[1.516961] (-) TimerEvent: {}
+[1.618849] (-) TimerEvent: {}
+[1.721494] (-) TimerEvent: {}
+[1.824385] (-) TimerEvent: {}
+[1.927184] (-) TimerEvent: {}
+[2.030210] (turtle_bot_15) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_bot_15', 'build', '--build-base', '/home/robotica/Robotica/Taller 1/build/turtle_bot_15/build', 'install', '--record', '/home/robotica/Robotica/Taller 1/build/turtle_bot_15/install.log', '--single-version-externally-managed'], 'cwd': '/home/robotica/Robotica/Taller 1/src/turtle_bot_15', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robotica', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robotica', 'OLDPWD': '/home/robotica', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'SYSTEMD_EXEC_PID': '1953', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotica', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robotica', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robotica-VirtualBox:@/tmp/.ICE-unix/1933,unix/robotica-VirtualBox:/tmp/.ICE-unix/1933', 'Coppelia_Root': '$/home/robotica/Downloads/Coppelia', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f3c0850e_f4e0_4372_a88c_bdc7eaf6ffb5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.I72521', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robotica/Robotica/Taller 1/build/turtle_bot_15', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotica/Robotica/Taller 1/build/turtle_bot_15/prefix_override:/home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.058339] (-) TimerEvent: {}
+[2.161644] (-) TimerEvent: {}
+[2.294287] (-) TimerEvent: {}
+[2.398072] (-) TimerEvent: {}
+[2.501057] (-) TimerEvent: {}
+[2.604376] (-) TimerEvent: {}
+[2.711048] (-) TimerEvent: {}
+[2.831501] (-) TimerEvent: {}
+[2.835694] (turtle_bot_15) StdoutLine: {'line': b'running egg_info\n'}
+[2.841777] (turtle_bot_15) StdoutLine: {'line': b'writing ../../build/turtle_bot_15/turtle_bot_15.egg-info/PKG-INFO\n'}
+[2.852780] (turtle_bot_15) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_bot_15/turtle_bot_15.egg-info/dependency_links.txt\n'}
+[2.861798] (turtle_bot_15) StdoutLine: {'line': b'writing entry points to ../../build/turtle_bot_15/turtle_bot_15.egg-info/entry_points.txt\n'}
+[2.873104] (turtle_bot_15) StdoutLine: {'line': b'writing requirements to ../../build/turtle_bot_15/turtle_bot_15.egg-info/requires.txt\n'}
+[2.890112] (turtle_bot_15) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_bot_15/turtle_bot_15.egg-info/top_level.txt\n'}
+[2.931760] (-) TimerEvent: {}
+[2.933642] (turtle_bot_15) StdoutLine: {'line': b"reading manifest file '../../build/turtle_bot_15/turtle_bot_15.egg-info/SOURCES.txt'\n"}
+[2.980367] (turtle_bot_15) StdoutLine: {'line': b"writing manifest file '../../build/turtle_bot_15/turtle_bot_15.egg-info/SOURCES.txt'\n"}
+[2.989845] (turtle_bot_15) StdoutLine: {'line': b'running build\n'}
+[2.993567] (turtle_bot_15) StdoutLine: {'line': b'running build_py\n'}
+[3.007466] (turtle_bot_15) StdoutLine: {'line': b'running install\n'}
+[3.010000] (turtle_bot_15) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.013772] (turtle_bot_15) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.025742] (turtle_bot_15) StdoutLine: {'line': b'running install_lib\n'}
+[3.034631] (-) TimerEvent: {}
+[3.048026] (turtle_bot_15) StdoutLine: {'line': b'running install_data\n'}
+[3.060100] (turtle_bot_15) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.083019] (turtle_bot_15) StdoutLine: {'line': b"removing '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.100945] (turtle_bot_15) StdoutLine: {'line': b'Copying ../../build/turtle_bot_15/turtle_bot_15.egg-info to /home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15-0.0.0-py3.10.egg-info\n'}
+[3.135843] (-) TimerEvent: {}
+[3.244081] (-) TimerEvent: {}
+[3.333477] (turtle_bot_15) StdoutLine: {'line': b'running install_scripts\n'}
+[3.346130] (-) TimerEvent: {}
+[3.435614] (turtle_bot_15) StdoutLine: {'line': b'Installing turtle_bot_interface script to /home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/turtle_bot_15\n'}
+[3.452299] (-) TimerEvent: {}
+[3.472772] (turtle_bot_15) StdoutLine: {'line': b'Installing turtle_bot_teleop script to /home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/turtle_bot_15\n'}
+[3.494344] (turtle_bot_15) StdoutLine: {'line': b"writing list of installed files to '/home/robotica/Robotica/Taller 1/build/turtle_bot_15/install.log'\n"}
+[3.552801] (-) TimerEvent: {}
+[3.657119] (turtle_bot_15) CommandEnded: {'returncode': 0}
+[3.666112] (-) TimerEvent: {}
+[3.773186] (-) TimerEvent: {}
+[3.875484] (-) TimerEvent: {}
+[3.977211] (-) TimerEvent: {}
+[4.057887] (turtle_bot_15) JobEnded: {'identifier': 'turtle_bot_15', 'rc': 0}
+[4.081739] (-) TimerEvent: {}
+[4.083407] (-) EventReactorShutdown: {}
