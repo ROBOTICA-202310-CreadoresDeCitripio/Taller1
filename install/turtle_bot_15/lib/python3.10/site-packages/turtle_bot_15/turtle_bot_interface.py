@@ -78,4 +78,8 @@ def main(args=None):
     rclpy.shutdown()
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     main()
+=======
+    main()
+>>>>>>> 61e32c57265d91780b2b1cec1218dedcbd80113f

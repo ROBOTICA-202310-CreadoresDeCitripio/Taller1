@@ -23,6 +23,10 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
+<<<<<<< HEAD
+=======
+_colcon_prefix_chain_powershell_source_script "/home/lieeeml00401/taller1_grupo15/install\local_setup.ps1"
+>>>>>>> 61e32c57265d91780b2b1cec1218dedcbd80113f
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

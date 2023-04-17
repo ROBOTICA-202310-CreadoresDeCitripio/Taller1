@@ -13,15 +13,15 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='Lider - Grupo 15',
-    maintainer_email='n.rincon4@uniandes.edu.co',
-    description='Paquete asociado al robot teleoperado del punto 1 del Taller 1 de Robotica (2023-10)',
-    license='Apache License 2.0',
+    maintainer='lieeeml00401',
+    maintainer_email='lieeeml00401@todo.todo',
+    description='TODO: Package description',
+    license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                'turtle_bot_teleop = turtle_bot_15.turtle_bot_teleop:main',
-                'turtle_bot_interface = turtle_bot_15.turtle_bot_interface:main',
+            'turtle_bot_teleop = turtle_bot_15.turtle_bot_teleop:main',
+            'turtle_bot_interface = turtle_bot_15.turtle_bot_interface:main'
         ],
     },
 )

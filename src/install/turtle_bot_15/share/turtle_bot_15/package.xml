@@ -3,9 +3,15 @@
 <package format="3">
   <name>turtle_bot_15</name>
   <version>0.0.0</version>
+<<<<<<< HEAD
   <description>Paquete asociado al robot teleoperado del punto 1 del Taller 1 de Robotica (2023-10)</description>
   <maintainer email="n.rincon4@uniandes.edu.co">Lider - Grupo 15</maintainer>
   <license>Apache License 2.0</license>
+=======
+  <description>TODO: Package description</description>
+  <maintainer email="lieeeml00401@todo.todo">lieeeml00401</maintainer>
+  <license>TODO: License declaration</license>
+>>>>>>> 61e32c57265d91780b2b1cec1218dedcbd80113f
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

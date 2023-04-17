@@ -83,6 +83,15 @@ class InitialMenu:
         # Correr la ventana con el menú inicial
         self.window.mainloop()
 
+    def callback(self, msg):
+        x = msg.linear.x
+        y = msg.linear.y
+        self.xdata.append(x)
+        self.ydata.append(y)
+        self.line.set_data(self.xdata, self.ydata)
+        plt.draw()
+        plt.pause(0.01)
+        plt.show(block=False)
 
 class Window:
     # ==================================================================================================

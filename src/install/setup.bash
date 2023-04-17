@@ -21,6 +21,12 @@ _colcon_prefix_chain_bash_source_script() {
 # setting COLCON_CURRENT_PREFIX avoids determining the prefix in the sourced script
 COLCON_CURRENT_PREFIX="/opt/ros/humble"
 _colcon_prefix_chain_bash_source_script "$COLCON_CURRENT_PREFIX/local_setup.bash"
+<<<<<<< HEAD
+=======
+# setting COLCON_CURRENT_PREFIX avoids determining the prefix in the sourced script
+COLCON_CURRENT_PREFIX="/home/lieeeml00401/taller1_grupo15/install"
+_colcon_prefix_chain_bash_source_script "$COLCON_CURRENT_PREFIX/local_setup.bash"
+>>>>>>> 61e32c57265d91780b2b1cec1218dedcbd80113f
 
 # source this prefix
 # setting COLCON_CURRENT_PREFIX avoids determining the prefix in the sourced script

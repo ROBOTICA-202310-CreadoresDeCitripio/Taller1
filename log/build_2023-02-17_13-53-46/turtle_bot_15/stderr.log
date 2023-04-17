@@ -1,7 +1,0 @@
-/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
-  warnings.warn(
-  File "/home/robotica/taller1_grupo15/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15/turtle_bot_interface.py", line 24
-    rclpy::init(args=args)
-          ^
-SyntaxError: invalid syntax
-

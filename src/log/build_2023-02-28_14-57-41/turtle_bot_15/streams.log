@@ -1,0 +1,43 @@
+[0.637s] Invoking command in '/home/lieeeml00401/taller1_grupo15/src/turtle_bot_15': PYTHONPATH=/home/lieeeml00401/taller1_grupo15/src/build/turtle_bot_15/prefix_override:/home/lieeeml00401/taller1_grupo15/src/install/turtle_bot_15/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/turtle_bot_15 build --build-base /home/lieeeml00401/taller1_grupo15/src/build/turtle_bot_15/build install --record /home/lieeeml00401/taller1_grupo15/src/build/turtle_bot_15/install.log --single-version-externally-managed
+[0.858s] running egg_info
+[0.859s] creating ../build/turtle_bot_15/turtle_bot_15.egg-info
+[0.859s] writing ../build/turtle_bot_15/turtle_bot_15.egg-info/PKG-INFO
+[0.859s] writing dependency_links to ../build/turtle_bot_15/turtle_bot_15.egg-info/dependency_links.txt
+[0.859s] writing entry points to ../build/turtle_bot_15/turtle_bot_15.egg-info/entry_points.txt
+[0.859s] writing requirements to ../build/turtle_bot_15/turtle_bot_15.egg-info/requires.txt
+[0.859s] writing top-level names to ../build/turtle_bot_15/turtle_bot_15.egg-info/top_level.txt
+[0.859s] writing manifest file '../build/turtle_bot_15/turtle_bot_15.egg-info/SOURCES.txt'
+[0.861s] reading manifest file '../build/turtle_bot_15/turtle_bot_15.egg-info/SOURCES.txt'
+[0.862s] writing manifest file '../build/turtle_bot_15/turtle_bot_15.egg-info/SOURCES.txt'
+[0.862s] running build
+[0.862s] running build_py
+[0.862s] creating /home/lieeeml00401/taller1_grupo15/src/build/turtle_bot_15/build
+[0.862s] creating /home/lieeeml00401/taller1_grupo15/src/build/turtle_bot_15/build/lib
+[0.862s] creating /home/lieeeml00401/taller1_grupo15/src/build/turtle_bot_15/build/lib/turtle_bot_15
+[0.862s] copying turtle_bot_15/turtle_bot_teleop.py -> /home/lieeeml00401/taller1_grupo15/src/build/turtle_bot_15/build/lib/turtle_bot_15
+[0.862s] copying turtle_bot_15/__init__.py -> /home/lieeeml00401/taller1_grupo15/src/build/turtle_bot_15/build/lib/turtle_bot_15
+[0.862s] copying turtle_bot_15/turtle_bot_interface.py -> /home/lieeeml00401/taller1_grupo15/src/build/turtle_bot_15/build/lib/turtle_bot_15
+[0.862s] running install
+[0.863s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.863s]   warnings.warn(
+[0.864s] running install_lib
+[0.864s] creating /home/lieeeml00401/taller1_grupo15/src/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15
+[0.865s] copying /home/lieeeml00401/taller1_grupo15/src/build/turtle_bot_15/build/lib/turtle_bot_15/turtle_bot_teleop.py -> /home/lieeeml00401/taller1_grupo15/src/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15
+[0.865s] copying /home/lieeeml00401/taller1_grupo15/src/build/turtle_bot_15/build/lib/turtle_bot_15/__init__.py -> /home/lieeeml00401/taller1_grupo15/src/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15
+[0.865s] copying /home/lieeeml00401/taller1_grupo15/src/build/turtle_bot_15/build/lib/turtle_bot_15/turtle_bot_interface.py -> /home/lieeeml00401/taller1_grupo15/src/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15
+[0.865s] byte-compiling /home/lieeeml00401/taller1_grupo15/src/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15/turtle_bot_teleop.py to turtle_bot_teleop.cpython-310.pyc
+[0.866s] byte-compiling /home/lieeeml00401/taller1_grupo15/src/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15/__init__.py to __init__.cpython-310.pyc
+[0.866s] byte-compiling /home/lieeeml00401/taller1_grupo15/src/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15/turtle_bot_interface.py to turtle_bot_interface.cpython-310.pyc
+[0.867s] running install_data
+[0.867s] creating /home/lieeeml00401/taller1_grupo15/src/install/turtle_bot_15/share/ament_index
+[0.867s] creating /home/lieeeml00401/taller1_grupo15/src/install/turtle_bot_15/share/ament_index/resource_index
+[0.867s] creating /home/lieeeml00401/taller1_grupo15/src/install/turtle_bot_15/share/ament_index/resource_index/packages
+[0.867s] copying resource/turtle_bot_15 -> /home/lieeeml00401/taller1_grupo15/src/install/turtle_bot_15/share/ament_index/resource_index/packages
+[0.868s] copying package.xml -> /home/lieeeml00401/taller1_grupo15/src/install/turtle_bot_15/share/turtle_bot_15
+[0.868s] running install_egg_info
+[0.869s] Copying ../build/turtle_bot_15/turtle_bot_15.egg-info to /home/lieeeml00401/taller1_grupo15/src/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15-0.0.0-py3.10.egg-info
+[0.870s] running install_scripts
+[0.890s] Installing turtle_bot_interface script to /home/lieeeml00401/taller1_grupo15/src/install/turtle_bot_15/lib/turtle_bot_15
+[0.890s] Installing turtle_bot_teleop script to /home/lieeeml00401/taller1_grupo15/src/install/turtle_bot_15/lib/turtle_bot_15
+[0.890s] writing list of installed files to '/home/lieeeml00401/taller1_grupo15/src/build/turtle_bot_15/install.log'
+[0.920s] Invoked command in '/home/lieeeml00401/taller1_grupo15/src/turtle_bot_15' returned '0': PYTHONPATH=/home/lieeeml00401/taller1_grupo15/src/build/turtle_bot_15/prefix_override:/home/lieeeml00401/taller1_grupo15/src/install/turtle_bot_15/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/turtle_bot_15 build --build-base /home/lieeeml00401/taller1_grupo15/src/build/turtle_bot_15/build install --record /home/lieeeml00401/taller1_grupo15/src/build/turtle_bot_15/install.log --single-version-externally-managed
