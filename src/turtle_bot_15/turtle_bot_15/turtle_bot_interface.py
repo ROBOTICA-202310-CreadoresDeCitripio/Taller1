@@ -2,18 +2,21 @@ import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
 import tkinter as tk
-import pygame
+from tkinter import filedialog
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from matplotlib.figure import Figure
+import numpy as np
 
 
-'''
 class TurtleBotInterface(Node):
     # ==================================================================================================
     # Definir el constructor del nodo, el cual llama a la ventana principal e inicia la suscripción
     # ==================================================================================================
     def __init__(self):
-        # Inicializar la superclase Node para generar el nodo con su nombre
+        # Inicializar la superclase Node para generar el nodo con su nombre y otros atributos
         super().__init__("turtle_bot_interface")
-
+        self.xdata = []
+        self.ydata = []
         # Suscribir a tópicos de posición y de velocidad
         self.subscribe_to_pos = self.create_subscription(
             Twist, "turtlebot_position", self.callback_position, 10)
@@ -21,13 +24,20 @@ class TurtleBotInterface(Node):
             Twist, "turtlebot_cmdVel", self.callback_velocity, 10)
         self.subscribe_to_pos, self.subscribe_to_vel
 
-        # Diálogo para funcionamiento inicial
-        dialog = InitialMenu("¡Bienvenid@ a la aplicación del TurtleBot 15!", "Seleccione una opción:",
-                             "DIBUJAR TRAYECTORIA", "GUARDAR TRAYECTORIA", "REPRODUCIR TRAYECTORIA")
-        dialog.run()
-'''
+    # ==================================================================================================
+    # Definir los métodos de la clase -> Callback para interacción con tópicos y actualizar los datos
+    # ==================================================================================================
+    def callback_position(self, msg):
+        x = msg.linear.x
+        y = msg.linear.y
+        self.xdata.append(x)
+        self.ydata.append(y)
 
-'''        
+
+    def callback_velocity(self, msg):
+        pass
+
+
 class InitialMenu:
     # ==================================================================================================
     # Constructor del menú inicial de la aplicación
@@ -83,46 +93,59 @@ class InitialMenu:
         # Correr la ventana con el menú inicial
         self.window.mainloop()
 
-    def callback(self, msg):
-        x = msg.linear.x
-        y = msg.linear.y
-        self.xdata.append(x)
-        self.ydata.append(y)
-        self.line.set_data(self.xdata, self.ydata)
-        plt.draw()
-        plt.pause(0.01)
-        plt.show(block=False)
 
 class Window:
     # ==================================================================================================
     # Constructor de la ventana de interfaz para pintar trayectoria en tiempo real
     # ==================================================================================================
     def __init__(self):
+        # Generar una instancia del nodo de ROS
+        rclpy.init(args=None)
+        self.rosnode = TurtleBotInterface()
+        rclpy.spin(self.rosnode)
         # Generar una ventana básica de Tkinter para albergar la gráfica y otros botones
         self.window = tk.Tk()
         self.window.geometry("500x500")
         self.window.resizable(False, False)
         # Insertar un botón para guardar la gráfica en cualquier momento como JPG
-        self.save_button = tk.Button(self.window, text="GUARDAR GRÁFICA", command=self.save_figure)
+        self.save_button = tk.Button(self.window, text="GUARDAR GRÁFICA", command=self.save_graph)
         self.save_button.pack(side=tk.BOTTOM)
         # Insertar un campo para almacenar la gráfica en la interfaz
-        self.graph = tk.Canvas(self.window, width=500, height=500, bg="white")
+        #self.graph = tk.Canvas(self.window, width=500, height=500, bg="white")
+        self.fig = Figure(figsize=(5, 4), dpi=100)
+        self.ax = self.fig.add_subplot(111)
+        self.canvas = FigureCanvasTkAgg(self.plot_graph(self.rosnode.xdata, self.rosnode.ydata), master=self.window)
+        self.canvas.draw()
+        self.canvas.get_tk_widget().pack(side=tk.TOP, fill=tk.BOTH, expand=1)
+        # Actualizar la gráfica en tiempo real en intervalos constantes
+        self.window.after(100, self.update_graph)
+        # Generar la ventana de Tkinter de forma continua
+        tk.mainloop()
+        self.rosnode.destroy_node()
+        rclpy.shutdown()
 
 
     # ==================================================================================================
-    # Definir los métodos de la clase -> Correr ventana y guardar JPG
+    # Definir los métodos de la clase -> Correr ventana y guardar gráfica
     # ==================================================================================================
     def run(self):
         self.window.mainloop()
 
-    def save_figure(self):
-        # Pídele al usuario que seleccione un archivo
-        file_path = tk.filedialog.asksaveasfilename(defaultextension=".png")
-        # Guarda la figura de Matplotlib en el archivo seleccionado
-        if file_path:
-            postscript_data = self.graph.postscript(colormode='color')
-            pil_image = Image.open(io.BytesIO(postscript_data.encode('utf-8')))
-            pil_image.save(file_path)
+    def plot_graph(self, x, y):
+        self.ax.plot(x, y)
+        return self.fig
+    
+    def save_graph(self):
+        file_types = [('PNG', '*.png'), ('JPEG', '*.jpg'), ('All Files', '*.*')]
+        file_name = filedialog.asksaveasfilename(defaultextension=".png", filetypes=file_types)
+        if file_name:
+            self.fig.savefig(file_name)
+
+    def update_graph(self):
+        self.ax.clear()
+        self.ax.plot(self.rosnode.xdata, self.rosnode.ydata)
+        self.canvas.draw_idle()
+        self.window.after(100, self.update_graph)
 
 
 class DrawWindow(Window):
@@ -169,4 +192,13 @@ class PlayWindow(Window):
     # ==================================================================================================
     # Definir los métodos de la clase -> 
     # ==================================================================================================
-'''
+
+
+def main(args=None):
+    # Diálogo para funcionamiento inicial
+    dialog = InitialMenu("¡Bienvenid@ a la aplicación del TurtleBot 15!", "Seleccione una opción:",
+                            "DIBUJAR TRAYECTORIA", "GUARDAR TRAYECTORIA", "REPRODUCIR TRAYECTORIA")
+    dialog.run()
+
+if __name__ == '__main__':
+    main()
