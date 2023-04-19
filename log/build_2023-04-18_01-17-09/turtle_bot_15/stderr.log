@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15/turtle_bot_teleop.py", line 106
+    >>>>>>> 61e32c57265d91780b2b1cec1218dedcbd80113f
+                ^
+SyntaxError: invalid decimal literal
+

@@ -1,0 +1,39 @@
+[2.495s] Invoking command in '/home/robotica/Robotica/Taller 1/src/turtle_bot_15': PYTHONPATH=/home/robotica/Robotica/Taller 1/build/turtle_bot_15/prefix_override:/home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_15 build --build-base /home/robotica/Robotica/Taller 1/build/turtle_bot_15/build install --record /home/robotica/Robotica/Taller 1/build/turtle_bot_15/install.log --single-version-externally-managed
+[3.078s] running egg_info
+[3.087s] writing ../../build/turtle_bot_15/turtle_bot_15.egg-info/PKG-INFO
+[3.093s] writing dependency_links to ../../build/turtle_bot_15/turtle_bot_15.egg-info/dependency_links.txt
+[3.100s] writing entry points to ../../build/turtle_bot_15/turtle_bot_15.egg-info/entry_points.txt
+[3.108s] writing requirements to ../../build/turtle_bot_15/turtle_bot_15.egg-info/requires.txt
+[3.115s] writing top-level names to ../../build/turtle_bot_15/turtle_bot_15.egg-info/top_level.txt
+[3.151s] reading manifest file '../../build/turtle_bot_15/turtle_bot_15.egg-info/SOURCES.txt'
+[3.183s] writing manifest file '../../build/turtle_bot_15/turtle_bot_15.egg-info/SOURCES.txt'
+[3.189s] running build
+[3.192s] running build_py
+[3.196s] copying turtle_bot_15/pygame_example.py -> /home/robotica/Robotica/Taller 1/build/turtle_bot_15/build/lib/turtle_bot_15
+[3.213s] copying turtle_bot_15/turtle_bot_interface.py -> /home/robotica/Robotica/Taller 1/build/turtle_bot_15/build/lib/turtle_bot_15
+[3.230s] copying turtle_bot_15/turtle_bot_teleop.py -> /home/robotica/Robotica/Taller 1/build/turtle_bot_15/build/lib/turtle_bot_15
+[3.248s] running install
+[3.252s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.257s]   warnings.warn(
+[3.265s] running install_lib
+[3.291s] copying /home/robotica/Robotica/Taller 1/build/turtle_bot_15/build/lib/turtle_bot_15/pygame_example.py -> /home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15
+[3.318s] copying /home/robotica/Robotica/Taller 1/build/turtle_bot_15/build/lib/turtle_bot_15/turtle_bot_interface.py -> /home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15
+[3.339s] copying /home/robotica/Robotica/Taller 1/build/turtle_bot_15/build/lib/turtle_bot_15/turtle_bot_teleop.py -> /home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15
+[3.371s] byte-compiling /home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15/pygame_example.py to pygame_example.cpython-310.pyc
+[3.394s] byte-compiling /home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15/turtle_bot_interface.py to turtle_bot_interface.cpython-310.pyc
+[3.416s] byte-compiling /home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15/turtle_bot_teleop.py to turtle_bot_teleop.cpython-310.pyc
+[3.435s]   File "/home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15/turtle_bot_teleop.py", line 106
+[3.449s]     >>>>>>> 61e32c57265d91780b2b1cec1218dedcbd80113f
+[3.458s]                 ^
+[3.464s] SyntaxError: invalid decimal literal
+[3.470s] 
+[3.477s] running install_data
+[3.482s] copying package.xml -> /home/robotica/Robotica/Taller 1/install/turtle_bot_15/share/turtle_bot_15
+[3.485s] running install_egg_info
+[3.489s] removing '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15-0.0.0-py3.10.egg-info' (and everything under it)
+[3.523s] Copying ../../build/turtle_bot_15/turtle_bot_15.egg-info to /home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages/turtle_bot_15-0.0.0-py3.10.egg-info
+[3.675s] running install_scripts
+[3.749s] Installing turtle_bot_interface script to /home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/turtle_bot_15
+[3.764s] Installing turtle_bot_teleop script to /home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/turtle_bot_15
+[3.790s] writing list of installed files to '/home/robotica/Robotica/Taller 1/build/turtle_bot_15/install.log'
+[3.893s] Invoked command in '/home/robotica/Robotica/Taller 1/src/turtle_bot_15' returned '0': PYTHONPATH=/home/robotica/Robotica/Taller 1/build/turtle_bot_15/prefix_override:/home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_15 build --build-base /home/robotica/Robotica/Taller 1/build/turtle_bot_15/build install --record /home/robotica/Robotica/Taller 1/build/turtle_bot_15/install.log --single-version-externally-managed

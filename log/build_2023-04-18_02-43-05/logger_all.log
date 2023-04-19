@@ -1,0 +1,150 @@
+[1.239s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.258s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa04c6a99c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa04cf3e050>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa04cf3e050>>)
+[1.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.520s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.527s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robotica/Robotica/Taller 1'
+[1.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.642s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.646s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(Resources) by extensions ['ignore', 'ignore_ament_install']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(Resources) by extension 'ignore'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(Resources) by extension 'ignore_ament_install'
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(Resources) by extensions ['colcon_pkg']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(Resources) by extension 'colcon_pkg'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(Resources) by extensions ['colcon_meta']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(Resources) by extension 'colcon_meta'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(Resources) by extensions ['ros']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(Resources) by extension 'ros'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(Resources) by extensions ['cmake', 'python']
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(Resources) by extension 'cmake'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(Resources) by extension 'python'
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(Resources) by extensions ['python_setup_py']
+[1.680s] Level 1:colcon.colcon_core.package_identification:_identify(Resources) by extension 'python_setup_py'
+[1.686s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.705s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[1.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[1.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_15) by extensions ['ignore', 'ignore_ament_install']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_15) by extension 'ignore'
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_15) by extension 'ignore_ament_install'
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_15) by extensions ['colcon_pkg']
+[1.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_15) by extension 'colcon_pkg'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_15) by extensions ['colcon_meta']
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_15) by extension 'colcon_meta'
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_15) by extensions ['ros']
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_15) by extension 'ros'
+[1.955s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_bot_15' with type 'ros.ament_python' and name 'turtle_bot_15'
+[1.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.963s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.965s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.235s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/robotica/Robotica/Taller 1/install
+[2.241s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[2.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.567s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_15' build argument 'cmake_args' from command line to 'None'
+[2.570s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_15' build argument 'cmake_target' from command line to 'None'
+[2.572s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_15' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.574s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_15' build argument 'cmake_clean_cache' from command line to 'False'
+[2.575s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_15' build argument 'cmake_clean_first' from command line to 'False'
+[2.577s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_15' build argument 'cmake_force_configure' from command line to 'False'
+[2.578s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_15' build argument 'ament_cmake_args' from command line to 'None'
+[2.580s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_15' build argument 'catkin_cmake_args' from command line to 'None'
+[2.582s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_15' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.583s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_bot_15' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotica/Robotica/Taller 1/build/turtle_bot_15', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotica/Robotica/Taller 1/install/turtle_bot_15', 'merge_install': False, 'path': '/home/robotica/Robotica/Taller 1/src/turtle_bot_15', 'symlink_install': False, 'test_result_base': None}
+[2.588s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.625s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.626s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotica/Robotica/Taller 1/src/turtle_bot_15' with build type 'ament_python'
+[2.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_bot_15', 'ament_prefix_path')
+[2.714s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/share/turtle_bot_15/hook/ament_prefix_path.ps1'
+[2.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/share/turtle_bot_15/hook/ament_prefix_path.dsv'
+[2.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/share/turtle_bot_15/hook/ament_prefix_path.sh'
+[2.743s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.744s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.962s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotica/Robotica/Taller 1/src/turtle_bot_15'
+[3.966s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.967s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotica/Robotica/Taller 1/src/turtle_bot_15': PYTHONPATH=/home/robotica/Robotica/Taller 1/build/turtle_bot_15/prefix_override:/home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_15 build --build-base /home/robotica/Robotica/Taller 1/build/turtle_bot_15/build install --record /home/robotica/Robotica/Taller 1/build/turtle_bot_15/install.log --single-version-externally-managed
+[8.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotica/Robotica/Taller 1/src/turtle_bot_15' returned '0': PYTHONPATH=/home/robotica/Robotica/Taller 1/build/turtle_bot_15/prefix_override:/home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_15 build --build-base /home/robotica/Robotica/Taller 1/build/turtle_bot_15/build install --record /home/robotica/Robotica/Taller 1/build/turtle_bot_15/install.log --single-version-externally-managed
+[8.315s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Robotica/Taller 1/install/turtle_bot_15' for CMake module files
+[8.386s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Robotica/Taller 1/install/turtle_bot_15' for CMake config files
+[8.449s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib'
+[8.454s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/bin'
+[8.456s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/pkgconfig/turtle_bot_15.pc'
+[8.458s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/lib/python3.10/site-packages'
+[8.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_bot_15', 'pythonpath')
+[8.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/share/turtle_bot_15/hook/pythonpath.ps1'
+[8.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/share/turtle_bot_15/hook/pythonpath.dsv'
+[8.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/share/turtle_bot_15/hook/pythonpath.sh'
+[8.493s] Level 1:colcon.colcon_core.environment:checking '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/bin'
+[8.495s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_bot_15)
+[8.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/share/turtle_bot_15/package.ps1'
+[8.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/share/turtle_bot_15/package.dsv'
+[8.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/share/turtle_bot_15/package.sh'
+[8.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/share/turtle_bot_15/package.bash'
+[8.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotica/Robotica/Taller 1/install/turtle_bot_15/share/turtle_bot_15/package.zsh'
+[8.552s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotica/Robotica/Taller 1/install/turtle_bot_15/share/colcon-core/packages/turtle_bot_15)
+[8.564s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.630s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.655s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.657s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.800s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.802s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.804s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.898s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.905s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotica/Robotica/Taller 1/install/local_setup.ps1'
+[8.984s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotica/Robotica/Taller 1/install/_local_setup_util_ps1.py'
+[9.003s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotica/Robotica/Taller 1/install/setup.ps1'
+[9.021s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotica/Robotica/Taller 1/install/local_setup.sh'
+[9.039s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotica/Robotica/Taller 1/install/_local_setup_util_sh.py'
+[9.047s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotica/Robotica/Taller 1/install/setup.sh'
+[9.061s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotica/Robotica/Taller 1/install/local_setup.bash'
+[9.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotica/Robotica/Taller 1/install/setup.bash'
+[9.079s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotica/Robotica/Taller 1/install/local_setup.zsh'
+[9.086s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotica/Robotica/Taller 1/install/setup.zsh'

@@ -13,7 +13,6 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 turtle_bot_15/__init__.py
-turtle_bot_15/prueba.py
-turtle_bot_15/turtle_bot_interface (copy).py
+turtle_bot_15/pygame_example.py
 turtle_bot_15/turtle_bot_interface.py
 turtle_bot_15/turtle_bot_teleop.py
